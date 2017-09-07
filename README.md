@@ -6,23 +6,23 @@ This page contains links to tutorials, information, script files and application
 ## Main supplementary materials
 
 * [General comments on DATA PREPARATION, ANALYSIS, AND REPORTING](https://docs.google.com/document/d/1beUHUZJpOl4B9E_pxI_ff8m4QitjxJFE5slwYk8HKiI/edit?ts=59a96a2a)
-* [Data cleaning report](https://github.com/FredHasselman/manylabRs/blob/master/ManyLabs2/Script%20-%20Data%20Cleaning/ML2_data_cleaning.md)
-    - For ease of viewing [download the HTML file](https://raw.githubusercontent.com/FredHasselman/manylabRs/master/ManyLabs2/Script%20-%20Data%20Cleaning/ML2_data_cleaning.html) and open it in your browswer
+* [Data cleaning report](https://manylabsopenscience.github.io/ML2_data_cleaning)
+    - The code is contained in the [`Rmarkdown` file](https://raw.githubusercontent.com/ManyLabsOpenScience/ManyLabsOpenScience.github.io/master/ML2_data_cleaning.Rmd) that created the report
 
 ## Files used for *R* code review:
 
-* [To Code Review Instructions](http://fredhasselman.com/other/ML2/ML2_RcodeReview.html)
-* [To PoPS Proposal](http://fredhasselman.com/other/ML2/ML2_PoPS_proposal.html)
-* [To Data Cleaning Report](http://fredhasselman.com/other/ML2/ML2_data_cleaning.html)
-* [To Analysis-Specific Variable Functions](http://fredhasselman.com/other/ML2/ML2_varfuns.html)
+* [To Code Review Instructions](https://ManyLabsOpenScience.github.io/ML2_RcodeReview)
+* [To PoPS Proposal](https://ManyLabsOpenScience.github.io/ML2_PoPS_proposal)
+* [To Data Cleaning Report](https://ManyLabsOpenScience.github.io/ML2_data_cleaning)
+* [To Analysis-Specific Variable Functions](https://ManyLabsOpenScience.github.io/ML2_varfuns)
     
 ## Github repositories with **R** reproducible analyses and function libraries
 
 * [A single-file sourceable function library]() - If you do not want to install the package
-* [The manylabRs package](https://github.com/FredHasselman/manylabRs/ManyLabs2/pkg)
-* [Code to reproduce meta analyses and funnel plots](https://github.com/FredHasselman/manylabRs/tree/master/ManyLabs2/Script%20-%20Meta%20analyses)
-* [Code to reproduce figures](https://github.com/FredHasselman/manylabRs/tree/master/ManyLabs2/Script%20-%20Figures)
-* [Code to extract the data used to create figures and tables](https://github.com/FredHasselman/manylabRs/tree/master/ManyLabs2/Script%20-%20Generate%20Figure%20and%20Table%20data)
+* [The manylabRs R package](https://github.com/ManyLabsOpenScience/manylabRs/tree/master/pkg)
+* [Code to reproduce meta analyses and funnel plots](https://github.com/ManyLabsOpenScience/ManyLabs2/tree/master/Script%20-%20Meta%20analyses)
+* [Code to reproduce figures](https://github.com/ManyLabsOpenScience/ManyLabs2/tree/master/Script%20-%20Figures)
+* [Code to extract the data used to create figures and tables](https://github.com/ManyLabsOpenScience/ManyLabs2/tree/master/Script%20-%20Generate%20Figure%20and%20Table%20data)
 
 ## Lookup tables used to generate datasets and analyses
 

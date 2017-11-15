@@ -324,7 +324,7 @@ g2 <- ggplot(pdat, aes(offset_dens, loc, group = interaction(pdat[['study.labels
 g2
 
 
-png(filename = paste0(outdir,"/ML2_SplitViolin_MEANsort_Ori_altLegend.png"),width=2400,height=2177, res=250)
+png(filename = paste0(outdir,"/ML2_SplitViolin_MEANsort_Ori_altLegend_16092017.png"),width=2400,height=2177, res=250)
 g2
  dev.off()
 g2
@@ -609,7 +609,7 @@ g3 <- ggplot(pdat, aes(offset_dens, loc, group = interaction(pdat[['study.labels
 g3
 
 
-png(filename = paste0(outdir,"/ML2_SplitViolin_GLOBALsort_Ori_altLegend.png"),width=2400,height=2177, res=250)
+png(filename = paste0(outdir,"/ML2_SplitViolin_GLOBALsort_Ori_altLegend_16092017.png"),width=2400,height=2177, res=250)
 g3
 dev.off()
 g3

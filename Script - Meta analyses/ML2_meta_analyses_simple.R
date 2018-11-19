@@ -11,14 +11,15 @@ library(tidyverse)
 require(rio)
 require(lattice)
 library(gplots)
+library(openxlsx)
 
 
 source('~/Library/Mobile Documents/com~apple~CloudDocs/GitHub/ManyLabRs/manylabRs/pkg/R/C-3PR_ASCII.R')
 init()
 
 dir.out <- "/Users/Fred/Dropbox/Manylabs2/Figures"
-dir.in  <- "~/Dropbox/Manylabs2/TestOutput/RESULTS.RDS/"
-outlist1 <- rio::import(paste0(dir.in,"Data_Figure.rds"))
+dir.in  <- "~/Dropbox/Manylabs2/TestOutput/RESULTS_RDS/"
+outlist1 <- rio::import(paste0(dir.in,"Data_Figure_NEW.rds"))
 outlist2 <- rio::import(paste0(dir.in,"Data_Table.rds"))
 outlistG <- rio::import(paste0(dir.in,"Data_Global.rds"))
 
@@ -102,32 +103,31 @@ for(an in unique(as.character(outlist1$analysis.name))){
 }
 
 
-
 get.MetaResults <- function(metaObj){
   out <- ldply(metaObj,function(d){
     data.frame(
       analysis.name = d$model$slab[1],
-      QE = d$model$QE%0!0%NA,
-      pval.QE = d$model$QEp%0!0%NA,
-      QM = d$model$QM%0!0%NA,
-      pval.QM = d$model$QMp%0!0%NA,
-      df   = (d$model$k-d$model$m)%0!0%NA,
-      sig2 = sum(d$model$sigma2, na.rm = TRUE)%0!0%NA,
-      tau2 = d$model$tau2%0!0%NA,
-      tau2.l = d$CI$random[1,2]%0!0%NA,
-      tau2.u = d$CI$random[1,3]%0!0%NA,
-      tau   = d$CI$random[2,1]%0!0%NA,
-      tau.l = d$CI$random[2,2]%0!0%NA,
-      tau.u = d$CI$random[2,3]%0!0%NA,
-      I2     = d$model$I2%0!0%NA,
-      I2pct   = d$CI$random[3,1]%0!0%NA,
-      I2pct.l = d$CI$random[3,2]%0!0%NA,
-      I2pct.u = d$CI$random[3,3]%0!0%NA,
-      H2   = d$CI$random[4,1]%0!0%NA,
-      H2.l = d$CI$random[4,2]%0!0%NA,
-      H2.u = d$CI$random[4,3]%0!0%NA,
-      # rho  = d$model$rho%0!0%NA,
-      # ICC  = (d$model$sigma2[1]/sum(d$model$sigma2, na.rm = TRUE))%0!0%0,
+      QE = d$model$QE%00%NA,
+      pval.QE = d$model$QEp%00%NA,
+      QM = d$model$QM%00%NA,
+      pval.QM = d$model$QMp%00%NA,
+      df   = (d$model$k-d$model$m)%00%NA,
+      sig2 = sum(d$model$sigma2, na.rm = TRUE)%00%NA,
+      tau2 = d$model$tau2%00%NA,
+      tau2.l = d$CI$random[1,2]%00%NA,
+      tau2.u = d$CI$random[1,3]%00%NA,
+      tau   = d$CI$random[2,1]%00%NA,
+      tau.l = d$CI$random[2,2]%00%NA,
+      tau.u = d$CI$random[2,3]%00%NA,
+      I2     = d$model$I2%00%NA,
+      I2pct   = d$CI$random[3,1]%00%NA,
+      I2pct.l = d$CI$random[3,2]%00%NA,
+      I2pct.u = d$CI$random[3,3]%00%NA,
+      H2   = d$CI$random[4,1]%00%NA,
+      H2.l = d$CI$random[4,2]%00%NA,
+      H2.u = d$CI$random[4,3]%00%NA,
+      # rho  = d$model$rho%00%NA,
+      # ICC  = (d$model$sigma2[1]/sum(d$model$sigma2, na.rm = TRUE))%00%0,
       console_out = paste(capture.output(print(summary(d))),collapse="\n"))
   })
   return(out)
@@ -140,10 +140,11 @@ mods1 <-  list(nomod_uni = rmaR0,
 
 outMeta_uni <- ldply(mods1,get.MetaResults)
 
-export(outMeta_uni,paste0(dir.out,"/meta_analysis_wide_030917.xlsx")
+dir.out <- "/Users/Fred/Dropbox/Manylabs2/TestOutput/RESULTS_META"
 
+export(outMeta_uni,paste0(dir.out,"/meta_analysis_wide_.xlsx"))
 
-pdf(paste0(dir.out,"/FunnelPerAnalysis_mod2_03-09-2017.pdf"), paper="a4r"))
+pdf(paste0(dir.out,"/FunnelPerAnalysis.pdf"), paper="a4r")
 
 for(m in seq_along(dfol)){
 

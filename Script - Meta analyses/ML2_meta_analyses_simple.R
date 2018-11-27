@@ -29,30 +29,8 @@ dir.out <- getwd()
 # Get data ----
 ML2.key     <- get.GoogleSheet(data='ML2masteRkey')$df
 
-# outlist1 <- rio::import(paste0(dir.in,"Data_Figure_NEW.rds"))
-# outlist2 <- rio::import(paste0(dir.in,"Data_Table.rds"))
-# outlistG <- rio::import(paste0(dir.in,"Data_Global.rds"))
-
-outlist.tmp <- readRDS(file.path(dir.in,"OSFdata","!!RawData","ML2_results_primary_all.rds"))
-outlist.tmp <- outlist.tmp$aggregated
-outlist1 <-ldply(outlist.tmp)
-rm(outlist.tmp)
-
 outlist1 <- rio::import(file.path(dir.in,"OSFdata","!!RawData","Data_Figure_NOweird.csv"))
 
-# outlist.tmp <- readRDS(file.path(dir.in,"OSFdata","!!RawData","ML2_results_secondary_all.rds"))
-# outlist.tmp <- outlist.tmp$aggregated
-# outlist2 <- ldply(outlist.tmp)
-# rm(outlist.tmp)
-# 
-# outlistAll <- rbind(outlist1[,which(colnames(outlist1)%in%colnames(outlist2))],outlist2[,which(colnames(outlist2)%in%colnames(outlist1))])
-# 
-# outlist.tmp <- readRDS(file.path(dir.in,"OSFdata","!!RawData/ML2_results_global_all.rds"))
-# outlist.tmp <- outlist.tmp$aggregated
-# outlistG <- ldply(outlist.tmp)
-
-
-unique(outlist1$source.Setting)
 outlist1$online <- NA
 outlist1$online[outlist1$source.Setting%in%c("In a classroom","In a lab")] <- "lab"
 outlist1$online[outlist1$source.Setting%in%c("Online (at home)")] <- "online"
@@ -61,7 +39,6 @@ outlist1$source.country.f <- factor(outlist1$source.Country)
 outlist1$source.WEIRD.f <- factor(outlist1$source.Weird,
                             levels = c(0,1),
                             labels = c("less WEIRD","WEIRD"))
-
 
 rmaR0 <- rmaR1 <- rmaR2 <- dfol <- list()
 
@@ -107,8 +84,7 @@ for(an in unique(as.character(outlist1$analysis.name))){
                  vi=test.vi.r,
                  slab = analysis.name,
                  data=tmp)
-    confint(metR0)
-
+    
     rmaR0[[cnt]] <- list(model = metR0, CI= confint(metR0))
 
     tmp2 <- tmp[!is.na(tmp$source.online),]

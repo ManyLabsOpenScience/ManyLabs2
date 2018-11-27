@@ -1,27 +1,55 @@
-# META ANALYSES - MANYLABS 2 -
+## META ANALYSES - MANYLABS 2 -
+#
+# Just load the data and plot the Figure!
+#
+# corresponding coder: Fred Hasselman (https://osf.io/ujgs6/)
 
-# SETUP -----------------------------------------------------------------------------------------------------------
-
-
+# SETUP ----
+library(rio)
 library(metafor)
-library(ggplot2)
 require(reshape2)
 library(plyr)
 library(tidyverse)
-require(rio)
 require(lattice)
 library(gplots)
-library(openxlsx)
 
-
-source('~/Library/Mobile Documents/com~apple~CloudDocs/GitHub/ManyLabRs/manylabRs/pkg/R/C-3PR_ASCII.R')
+# NOTE: Don't run init() if you do not want to load, and possiblt install packages we need to run this script!!
+library(devtools)
+devtools::source_url("https://raw.githubusercontent.com/ManyLabsOpenScience/manylabRs/master/R/manylabRs_SOURCE.R")
 init()
 
-dir.out <- "/Users/Fred/Dropbox/Manylabs2/Figures"
-dir.in  <- "~/Dropbox/Manylabs2/TestOutput/RESULTS_RDS/"
-outlist1 <- rio::import(paste0(dir.in,"Data_Figure_NEW.rds"))
-outlist2 <- rio::import(paste0(dir.in,"Data_Table.rds"))
-outlistG <- rio::import(paste0(dir.in,"Data_Global.rds"))
+devtools::source_url("https://raw.githubusercontent.com/FredHasselman/invctr/master/R/invictor.R")
+
+
+# Provide root for OSFdata folder
+dir.in <- "~/Dropbox/Manylabs2"
+# Output directory
+dir.out <- getwd()
+
+# Get data ----
+ML2.key     <- get.GoogleSheet(data='ML2masteRkey')$df
+
+# outlist1 <- rio::import(paste0(dir.in,"Data_Figure_NEW.rds"))
+# outlist2 <- rio::import(paste0(dir.in,"Data_Table.rds"))
+# outlistG <- rio::import(paste0(dir.in,"Data_Global.rds"))
+
+outlist.tmp <- readRDS(file.path(dir.in,"OSFdata","!!RawData","ML2_results_primary_all.rds"))
+outlist.tmp <- outlist.tmp$aggregated
+outlist1 <-ldply(outlist.tmp)
+rm(outlist.tmp)
+
+outlist1 <- rio::import(file.path(dir.in,"OSFdata","!!RawData","Data_Figure_NOweird.csv"))
+
+# outlist.tmp <- readRDS(file.path(dir.in,"OSFdata","!!RawData","ML2_results_secondary_all.rds"))
+# outlist.tmp <- outlist.tmp$aggregated
+# outlist2 <- ldply(outlist.tmp)
+# rm(outlist.tmp)
+# 
+# outlistAll <- rbind(outlist1[,which(colnames(outlist1)%in%colnames(outlist2))],outlist2[,which(colnames(outlist2)%in%colnames(outlist1))])
+# 
+# outlist.tmp <- readRDS(file.path(dir.in,"OSFdata","!!RawData/ML2_results_global_all.rds"))
+# outlist.tmp <- outlist.tmp$aggregated
+# outlistG <- ldply(outlist.tmp)
 
 
 unique(outlist1$source.Setting)
@@ -30,8 +58,9 @@ outlist1$online[outlist1$source.Setting%in%c("In a classroom","In a lab")] <- "l
 outlist1$online[outlist1$source.Setting%in%c("Online (at home)")] <- "online"
 outlist1$online.f <- factor(outlist1$online)
 outlist1$source.country.f <- factor(outlist1$source.Country)
-
-ML2.key     <- get.GoogleSheet(data='ML2masteRkey')$df
+outlist1$source.WEIRD.f <- factor(outlist1$source.Weird,
+                            levels = c(0,1),
+                            labels = c("less WEIRD","WEIRD"))
 
 
 rmaR0 <- rmaR1 <- rmaR2 <- dfol <- list()
@@ -50,7 +79,7 @@ for(an in unique(as.character(outlist1$analysis.name))){
       analysis.name = c(rep(an,r)),
       study.source  = as.character(d$study.source),
       study.slate   = c(d$study.slate),
-      source.WEIRD.f  = d$source.WEIRD.f,
+      source.WEIRD.f  = d$source.Weird,
       source.online.f = d$online.f,
       source.country.f = d$source.country.f,
       stat.N        = c(d$stat.N),
@@ -140,11 +169,10 @@ mods1 <-  list(nomod_uni = rmaR0,
 
 outMeta_uni <- ldply(mods1,get.MetaResults)
 
-dir.out <- "/Users/Fred/Dropbox/Manylabs2/TestOutput/RESULTS_META"
+# Write output ----
+export(outMeta_uni,file.path(dir.out,"meta_analysis_wide.xlsx"))
 
-export(outMeta_uni,paste0(dir.out,"/meta_analysis_wide_.xlsx"))
-
-pdf(paste0(dir.out,"/FunnelPerAnalysis.pdf"), paper="a4r")
+pdf(file.path(dir.out,"FunnelPerAnalysis.pdf"), paper="a4r")
 
 for(m in seq_along(dfol)){
 

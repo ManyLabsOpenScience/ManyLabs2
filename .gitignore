@@ -36,6 +36,6 @@ vignettes/*.pdf
 *.DS_Store
 *.Rproj
 .DS_Store
-.DS_Store
 .Rproj.user
-Data/*.*
+
+Data/

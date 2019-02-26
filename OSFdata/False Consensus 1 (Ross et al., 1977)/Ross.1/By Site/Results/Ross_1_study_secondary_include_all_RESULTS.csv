@@ -1,0 +1,1693 @@
+results.generated,study.id,study.name,study.slate,study.mean,study.source,analysis.type,analysis.name,stat.N,stat.n1,stat.n2,stat.cond1.name,stat.cond1.column,stat.cond1.n,stat.cond1.count,stat.cond1.prop.cond,stat.cond1.prop.tot,stat.cond1.value,stat.cond1.mean,stat.cond1.sd,stat.cond1.median,stat.cond1.trimmed,stat.cond1.mad,stat.cond1.min,stat.cond1.max,stat.cond1.range,stat.cond1.skew,stat.cond1.kurtosis,stat.cond1.se,stat.cond2.name,stat.cond2.column,stat.cond2.n,stat.cond2.count,stat.cond2.prop.cond,stat.cond2.prop.tot,stat.cond2.value,stat.cond2.mean,stat.cond2.sd,stat.cond2.median,stat.cond2.trimmed,stat.cond2.mad,stat.cond2.min,stat.cond2.max,stat.cond2.range,stat.cond2.skew,stat.cond2.kurtosis,stat.cond2.se,stat.cond3.name,stat.cond3.column,stat.cond3.n,stat.cond3.count,stat.cond3.n.1,stat.cond3.prop.cond,stat.cond3.prop.tot,stat.cond3.value,stat.cond3.mean,stat.cond3.sd,stat.cond3.median,stat.cond3.trimmed,stat.cond3.mad,stat.cond3.min,stat.cond3.max,stat.cond3.range,stat.cond3.skew,stat.cond3.kurtosis,stat.cond3.se,stat.cond4.name,stat.cond4.column,stat.cond4.n,stat.cond4.count,stat.cond4.n.1,stat.cond4.prop.cond,stat.cond4.prop.tot,stat.cond4.value,stat.cond4.mean,stat.cond4.sd,stat.cond4.median,stat.cond4.trimmed,stat.cond4.mad,stat.cond4.min,stat.cond4.max,stat.cond4.range,stat.cond4.skew,stat.cond4.kurtosis,stat.cond4.se,test.type,test.estimate,test.estimate1,test.estimate2,test.statistic,test.p.value,test.parameter,test.conf.low,test.conf.high,test.method,test.alternative,test.estype,test.varequal,test.ConsoleOutput,test.ncp,test.ncp.lo,test.ncp.hi,test.table,test.parameter1,test.parameter2,test.cohensQ,test.cohensQ.l,test.cohensQ.u,test.bootR1,test.bootR2,test.bootCI.l,test.bootCI.u,test.fZ.r,test.fZ.l.r,test.fZ.u.r,ESCI.estimate,ESCI.statistic,ESCI.p.value,ESCI.parameter,ESCI.conf.low,ESCI.conf.high,ESCI.method,ESCI.alternative,ESCI.estype,ESCI.ncp,ESCI.ncp.lo,ESCI.ncp.hi,ESCI.N.total,ESCI.n.1,ESCI.n.2,ESCI.d,ESCI.var.d,ESCI.l.d,ESCI.u.d,ESCI.U3.d,ESCI.cl.d,ESCI.cliffs.d,ESCI.pval.d,ESCI.g,ESCI.var.g,ESCI.l.g,ESCI.u.g,ESCI.U3.g,ESCI.cl.g,ESCI.pval.g,ESCI.r,ESCI.var.r,ESCI.l.r,ESCI.u.r,ESCI.pval.r,ESCI.fisher.z,ESCI.var.z,ESCI.l.z,ESCI.u.z,ESCI.OR,ESCI.l.or,ESCI.u.or,ESCI.pval.or,ESCI.lOR,ESCI.l.lor,ESCI.u.lor,ESCI.pval.lor,ESCI.cohensQ,ESCI.cohensQ.l,ESCI.cohensQ.u,ESCI.bootR1,ESCI.bootR2,ESCI.bootCI.l,ESCI.bootCI.u,source.Source,source.Source.Global,source.Location,source.ReplicationPI,source.Filename,source.StudyOrder,source.IDiffOrder,source.Country,source.Language,source.Weird,source.SubjectPool,source.Setting,source.Tablet,source.Pencil,source.Execution,source.Slate,source.source,source.N.sources.global,source.N.sources.primary,source.N.sources.secondary,source.N.countries,source.N.locations,source.N.languages,source.N.studyorders1,source.N.studyorders2,source.N.IDiffOrderN,source.N.uIDs,source.N.cases.included,source.N.cases.excluded,source.Pct.WEIRD,source.Tbl.Execution,source.Tbl.subjectpool,source.Tbl.setting,source.Tbl.Tablet,source.Tbl.Pencil,source.Tbl.analysistype,source.Tbl.subset,stat.cond5.name,stat.cond5.column,stat.cond5.n,stat.cond5.mean,stat.cond5.sd,stat.cond5.median,stat.cond5.trimmed,stat.cond5.mad,stat.cond5.min,stat.cond5.max,stat.cond5.range,stat.cond5.skew,stat.cond5.kurtosis,stat.cond5.se,stat.cond6.name,stat.cond6.column,stat.cond6.n,stat.cond6.mean,stat.cond6.sd,stat.cond6.median,stat.cond6.trimmed,stat.cond6.mad,stat.cond6.min,stat.cond6.max,stat.cond6.range,stat.cond6.skew,stat.cond6.kurtosis,stat.cond6.se
+2019-01-15T12:38:09.176178Z,13,Ross,1,,aus,Secondary,Ross.1,91,57,34,Sign,You,57,,,,,,,,,,,,,,,,Refuse,You,34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,25.3648090815274,73.9824561403509,48.6176470588235,5.72968414343256,4.90621987350065e-07,52.8152644358331,16.4848224488828,34.2447957141719,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.7297, df = 52.815, p-value = 4.906e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 16.48482 34.24480
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            73.98246             48.61765 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.72968414343256,3.46608896421162,7.95142689826129,91,57,34,1.24158,0.05543,0.75108,1.72301,89.28041,81.00089,0.62002,0,1.23109,0.05449,0.74473,1.70845,89.08549,80.79891,0,0.5191,0.00593,0.34487,0.64447,0,0.57511,0.01136,0.3596,0.76578,9.5065,3.90516,22.7645,0,2.25198,1.3623,3.1252,0,,,,,,,,aus,aus,"American University of Sharjah, United Arab Emirates",Angela Maitner,ML2_Slate1_UAEEng_Inlab_execution_legal_r.csv,DO.BR.FL_6,DO.BR.FL_7,United Arab Emirates,English,0,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,aus,1,1,1,1,1,1,91,12,60,91,91,0,0,"Execution
+legal 
+   91 ","SubjectPool
+Yes 
+ 91 ","Setting
+In a lab 
+      91 ","Tablet
+Computers 
+       91 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       91 ","analysis.type
+Secondary 
+       91 ","subset
+all 
+ 91 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.227925Z,13,Ross,1,,badaniaon,Secondary,Ross.1,38,10,28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,25.3648090815274,73.9824561403509,48.6176470588235,5.72968414343256,4.90621987350065e-07,52.8152644358331,16.4848224488828,34.2447957141719,Welch Two Sample t-test,two.sided,t,FALSE,"",,,,,,,,,,,,,,,,,,,,,,,,,,5.72968414343256,3.46608896421162,7.95142689826129,91,57,34,1.24158,0.05543,0.75108,1.72301,89.28041,81.00089,0.62002,0,1.23109,0.05449,0.74473,1.70845,89.08549,80.79891,0,0.5191,0.00593,0.34487,0.64447,0,0.57511,0.01136,0.3596,0.76578,9.5065,3.90516,22.7645,0,2.25198,1.3623,3.1252,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.288291Z,13,Ross,1,,bc,Secondary,Ross.1,76,52,24,Sign,You,52,,,,,,,,,,,,,,,,Refuse,You,24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,32.0320512820513,78.6153846153846,46.5833333333333,5.96342883000825,1.05144192936683e-06,33.1893399400639,21.1061931183411,42.9579094457615,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.9634, df = 33.189, p-value = 1.051e-06
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 21.10619 42.95791
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            78.61538             46.58333 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.96342883000825,3.50815400973315,8.35923582631382,76,52,24,1.47162,0.07515,0.86572,2.06284,92.94382,85.09676,0.70194,0,1.45665,0.07362,0.85692,2.04186,92.7394,84.84973,0,0.56972,0.00608,0.37762,0.6969,0,0.64712,0.0137,0.39728,0.86125,14.42875,4.80783,42.16466,0,2.66922,1.57024,3.74158,0,,,,,,,,bc,bc,"Boston College, Chestnut Hill, MA","Jordan Theriault, Liane Young",ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY__pencilpaper_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"Yes, participants completed the Critcher task on pencil and paper",legal,Slate1,bc,1,1,1,1,1,1,76,13,72,76,76,0,100,"Execution
+legal 
+   76 ","SubjectPool
+Yes 
+ 76 ","Setting
+In a lab 
+      76 ","Tablet
+Computers 
+       76 ","Pencil
+Yes, participants completed the Critcher task on pencil and paper 
+                                                               76 ","analysis.type
+Secondary 
+       76 ","subset
+all 
+ 76 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.346180Z,13,Ross,1,,bilgi,Secondary,Ross.1,152,68,84,Sign,You,68,,,,,,,,,,,,,,,,Refuse,You,84,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,22.4908963585434,68.264705882353,45.7738095238095,6.56994259167639,8.63513207968541e-10,143.575021840488,15.72431364127,29.2574790758168,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 6.5699, df = 143.58, p-value = 8.635e-10
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 15.72431 29.25748
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            68.26471             45.77381 
+",,,,,,,,,,,,,,,,,,,,,,,,,,6.56994259167639,4.45805393462371,8.66180924236038,152,68,84,1.07174,0.03039,0.72723,1.41298,85.80815,77.57249,0.55145,0,1.06637,0.03009,0.72359,1.4059,85.68722,77.4587,0,0.47271,0.00399,0.34204,0.57742,0,0.51356,0.00671,0.35641,0.65858,6.98609,3.73988,12.97292,0,1.94392,1.31905,2.56286,0,,,,,,,,bilgi,bilgi,"Bilgi University, Istanbul, Turkey",Serdar Karabati,ML2_Slate1_Turkish_execution_illegal_Bilgi_r.csv,DO.BR.FL_5,DO.BR.FL_6,Turkey,Turkish,0,No,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,bilgi,1,1,1,1,1,1,152,13,133,152,152,0,0,"Execution
+illegal 
+    152 ","SubjectPool
+ No 
+152 ","Setting
+Online (at home) 
+             152 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                            152 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      152 ","analysis.type
+Secondary 
+      152 ","subset
+all 
+152 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.401500Z,13,Ross,1,,brasilia,Secondary,Ross.1,104,47,57,Sign,You,47,,,,,,,,,,,,,,,,Refuse,You,57,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,22.3150429264651,60.5957446808511,38.280701754386,4.71386122296867,7.75558907066787e-06,101.53861193016,12.9248224854045,31.7052633675257,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.7139, df = 101.54, p-value = 7.756e-06
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 12.92482 31.70526
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            60.59574             38.28070 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.71386122296867,2.63919979065649,6.76751386556378,104,47,57,0.92877,0.04297,0.52,1.3334,82.34953,74.43253,0.48865,2e-05,0.92192,0.04234,0.51617,1.32357,82.17153,74.27662,2e-05,0.42294,0.00655,0.25283,0.55666,2e-05,0.45127,0.0099,0.25843,0.62799,5.39029,2.56812,11.22917,2e-05,1.6846,0.94317,2.41851,2e-05,,,,,,,,brasilia,brasilia,"Social and Work Psychology Department, University of Brasilia, DF, Brazil","Ronaldo Pilati, Victor Keller",ML2_Slate1_Brazil__Portuguese_execution_illegal_r.csv,DO.BR.FL_5,DO.BR.FL_6,Brazil,Portuguese,0,No,In a classroom,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,brasilia,1,1,1,1,1,1,104,13,99,104,104,0,0,"Execution
+illegal 
+    104 ","SubjectPool
+ No 
+104 ","Setting
+In a classroom 
+           104 ","Tablet
+Computers 
+      104 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      104 ","analysis.type
+Secondary 
+      104 ","subset
+all 
+104 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.458714Z,13,Ross,1,,cas,Secondary,Ross.1,69,51,18,Sign,You,51,,,,,,,,,,,,,,,,Refuse,You,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,22.2418300653595,70.0196078431373,47.7777777777778,3.50008928653248,0.00168767423427527,26.1246026208799,9.18269864554911,35.3009614851698,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 3.5001, df = 26.125, p-value = 0.001688
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  9.182699 35.300961
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            70.01961             47.77778 
+",,,,,,,,,,,,,,,,,,,,,,,,,,3.50008928653248,1.29724821234817,5.64847146419087,69,51,18,0.95958,0.08184,0.35565,1.54858,83.13673,75.12813,0.50256,0.00131,0.9488,0.08001,0.35166,1.53118,82.8639,74.8859,0.00131,0.39317,0.01051,0.15653,0.56796,0.00123,0.41554,0.01515,0.15783,0.64451,5.70014,1.90615,16.59027,0.00131,1.74049,0.64508,2.80882,0.00131,,,,,,,,cas,cas,"Chinese Academy of Science, Beijing, China",Huajian Cai,ML2_Slate1_Chinese_Mainland_execution_legal_DEPLOY_r__Revised_by_Huajian.csv,DO.BR.FL_5,DO.BR.FL_6,China,Chinese (simplified),0,No,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,cas,1,1,1,1,1,1,69,13,68,69,69,0,0,"Execution
+legal 
+   69 ","SubjectPool
+No 
+69 ","Setting
+In a lab 
+      69 ","Tablet
+Computers 
+       69 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       69 ","analysis.type
+Secondary 
+       69 ","subset
+all 
+ 69 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.531889Z,13,Ross,1,,castab,Secondary,Ross.1,66,40,26,Sign,You,40,,,,,,,,,,,,,,,,Refuse,You,26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,35.8557692307692,70.125,34.2692307692308,8.71184483352568,5.77175327573348e-12,55.403157593597,27.6089721908153,44.1025662707232,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 8.7118, df = 55.403, p-value = 5.772e-12
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 27.60897 44.10257
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            70.12500             34.26923 
+",,,,,,,,,,,,,,,,,,,,,,,,,,8.71184483352568,6.14619951300422,11.229540422382,66,40,26,2.19465,0.09995,1.54832,2.8289,98.59057,93.96512,0.8793,0,2.16883,0.09761,1.53011,2.79562,98.49523,93.74354,0,0.73656,0.00322,0.60923,0.81446,0,0.94291,0.01587,0.7077,1.14013,53.55217,16.58253,169.19524,0,3.98066,2.80835,5.13105,0,,,,,,,,castab,cas,"Chinese Academy of Science, Beijing, China",Huajian Cai,ML2_Slate1_Chinese_Mainland_execution_legal_DEPLOY_r__Revised_by_Huajian.csv,DO.BR.FL_5,DO.BR.FL_6,China,Chinese (simplified),0,No,In a lab,Tablets,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,castab,1,1,1,1,1,1,66,13,60,66,66,0,0,"Execution
+legal 
+   66 ","SubjectPool
+No 
+66 ","Setting
+In a lab 
+      66 ","Tablet
+Tablets 
+     66 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       66 ","analysis.type
+Secondary 
+       66 ","subset
+all 
+ 66 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.594977Z,13,Ross,1,,doshisha,Secondary,Ross.1,114,38,76,Sign,You,38,,,,,,,,,,,,,,,,Refuse,You,76,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,23.8552631578947,60.3421052631579,36.4868421052632,5.46193930305493,7.55882178540928e-07,66.5107297339496,15.1364288059204,32.5740975098691,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.4619, df = 66.511, p-value = 7.559e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 15.13643 32.57410
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            60.34211             36.48684 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.46193930305493,3.27715025329711,7.61290447794672,114,38,76,1.08518,0.04464,0.6511,1.51253,86.10784,77.85592,0.55712,0,1.07789,0.04404,0.64673,1.50238,85.94595,77.70256,0,0.45863,0.00552,0.2958,0.58396,0,0.49557,0.00901,0.30491,0.66845,7.15845,3.25754,15.54015,0,1.96829,1.18097,2.74343,0,,,,,,,,doshisha,doshisha,"Doshisha University, Kyoto, Japan","Masanori Oikawa, Haruka Oikawa",ML2_Slate1_Japanese_Inlab_r.csv,DO.BR.FL_5,DO.BR.FL_6,Japan,Japanese,0,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,doshisha,1,1,1,1,1,1,114,13,107,114,114,0,0,"Execution
+legal 
+  114 ","SubjectPool
+Yes 
+114 ","Setting
+In a lab 
+     114 ","Tablet
+Computers 
+      114 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      114 ","analysis.type
+Secondary 
+      114 ","subset
+all 
+114 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.643490Z,13,Ross,1,,eindhoven,Secondary,Ross.1,98,40,58,Sign,You,40,,,,,,,,,,,,,,,,Refuse,You,58,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,19.6465517241379,61.75,42.1034482758621,4.01318332899118,0.000121650584773673,92.3679983157401,9.92417595025725,29.3689274980186,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.0132, df = 92.368, p-value = 0.0001217
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  9.924176 29.368927
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            61.75000             42.10345 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.01318332899118,1.95977154841177,6.04655596302418,98,40,58,0.82482,0.04571,0.40279,1.24273,79.52625,72.01322,0.44026,0.00021,0.81836,0.045,0.39963,1.233,79.34234,71.85927,0.00021,0.37903,0.00756,0.19613,0.52517,0.00019,0.39893,0.01053,0.19871,0.58345,4.46404,2.07627,9.52638,0.00021,1.49605,0.73057,2.25406,0.00021,,,,,,,,eindhoven,eindhoven,"Eindhoven University of Technology, Eindhoven, Netherlands","Daniël Lakens, Karin Smolders",ML2_Slate1_Dutch_execution_illegal_DEPLOY__netherlands_r.csv,DO.BR.FL_5,DO.BR.FL_6,The Netherlands,Dutch,1,No,Other (please indicate),Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,eindhoven,1,1,2,1,1,1,98,13,89,98,98,0,100,"Execution
+illegal 
+     98 ","SubjectPool
+No 
+98 ","Setting
+         In a classroom Other (please indicate) 
+                     43                      55 ","Tablet
+Computers   Tablets 
+       55        43 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       98 ","analysis.type
+Secondary 
+       98 ","subset
+all 
+ 98 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.698480Z,13,Ross,1,,elte,Secondary,Ross.1,93,36,57,Sign,You,36,,,,,,,,,,,,,,,,Refuse,You,57,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,22.433918128655,62.7777777777778,40.3438596491228,5.40764434401872,6.30771793706381e-07,80.9670501795858,14.1795410630927,30.6882951942173,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.4076, df = 80.967, p-value = 6.308e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 14.17954 30.68830
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            62.77778             40.34386 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.40764434401872,3.26431884652593,7.52248437077161,93,36,57,1.15123,0.05245,0.69494,1.60145,87.51805,79.21891,0.58438,0,1.14171,0.05158,0.68919,1.58822,87.32132,79.02568,0,0.49315,0.00623,0.32376,0.61921,0,0.54021,0.01111,0.33584,0.72372,8.06952,3.5271,18.26002,0,2.08809,1.26048,2.90471,0,,,,,,,,elte,elte,"Eotvos Lorand University, in Budapest, Hungary","Adrienn Ujhelyi, Anna Kende, Mihály Berkics, Gábor Orosz",ML2_Slate1_Hungarian_Inlab_execution_illegal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,Hungary,Hungarian,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,elte,1,1,1,1,1,1,93,13,85,93,93,0,100,"Execution
+illegal 
+     93 ","SubjectPool
+Yes 
+ 93 ","Setting
+In a lab 
+      93 ","Tablet
+Computers 
+       93 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       93 ","analysis.type
+Secondary 
+       93 ","subset
+all 
+ 93 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.745580Z,13,Ross,1,,eltetab,Secondary,Ross.1,88,31,57,Sign,You,31,,,,,,,,,,,,,,,,Refuse,You,57,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,24.8290888511602,64.5483870967742,39.719298245614,5.72486868934682,2.44672472634685e-07,69.2043972936421,16.1773502969686,33.4808274053517,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.7249, df = 69.204, p-value = 2.447e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 16.17735 33.48083
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            64.54839             39.71930 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.72486868934682,3.52906181475846,7.8869247406582,88,31,57,1.27758,0.05908,0.78756,1.76007,89.93015,81.68396,0.63368,0,1.26641,0.05805,0.78067,1.74468,89.73163,81.47361,0,0.5253,0.00603,0.35567,0.64786,0,0.58363,0.01176,0.37192,0.77159,10.148,4.17232,24.34727,0,2.31728,1.42847,3.19242,0,,,,,,,,eltetab,elte,"Eotvos Lorand University, in Budapest, Hungary","Adrienn Ujhelyi, Anna Kende, Mihály Berkics, Gábor Orosz",ML2_Slate1_Hungarian_Inlab_execution_illegal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,Hungary,Hungarian,1,Yes,In a lab,Tablets,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,eltetab,1,1,1,1,1,1,88,13,84,88,88,0,100,"Execution
+illegal 
+     88 ","SubjectPool
+Yes 
+ 88 ","Setting
+In a lab 
+      88 ","Tablet
+Tablets 
+     88 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       88 ","analysis.type
+Secondary 
+       88 ","subset
+all 
+ 88 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.796929Z,13,Ross,1,,grazvienna,Secondary,Ross.1,123,46,77,Sign,You,46,,,,,,,,,,,,,,,,Refuse,You,77,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,28.6276115189159,60.9782608695652,32.3506493506494,7.7339148268892,4.48576967396956e-12,114.245803995923,21.2950030752193,35.9602199626125,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 7.7339, df = 114.25, p-value = 4.486e-12
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 21.29500 35.96022
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            60.97826             32.35065 
+",,,,,,,,,,,,,,,,,,,,,,,,,,7.7339148268892,5.51924966288097,9.92143994057879,123,46,77,1.44121,0.04317,1.02851,1.84886,92.52375,84.59199,0.69184,0,1.43226,0.04263,1.02212,1.83737,92.39652,84.44127,0,0.57515,0.00367,0.44846,0.66976,0,0.65519,0.00833,0.48278,0.81031,13.65449,6.45923,28.60133,0,2.61407,1.86551,3.35345,0,,,,,,,,eltetab,elte,"Eotvos Lorand University, in Budapest, Hungary","Adrienn Ujhelyi, Anna Kende, Mihály Berkics, Gábor Orosz",ML2_Slate1_Hungarian_Inlab_execution_illegal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,Hungary,Hungarian,1,Yes,In a lab,Tablets,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,eltetab,1,1,1,1,1,1,88,13,84,88,88,0,100,"Execution
+illegal 
+     88 ","SubjectPool
+Yes 
+ 88 ","Setting
+In a lab 
+      88 ","Tablet
+Tablets 
+     88 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       88 ","analysis.type
+Secondary 
+       88 ","subset
+all 
+ 88 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.872990Z,13,Ross,1,,hawaiion,Secondary,Ross.1,102,56,46,Sign,You,56,,,,,,,,,,,,,,,,Refuse,You,46,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,17.333850931677,65.9642857142857,48.6304347826087,3.52677330021766,0.000637064895534692,99.8649296370107,7.58260433293349,27.0850975304205,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 3.5268, df = 99.865, p-value = 0.0006371
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  7.582604 27.085098
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            65.96429             48.63043 
+",,,,,,,,,,,,,,,,,,,,,,,,,,3.52677330021766,1.49852579968212,5.53836855864228,102,56,46,0.70179,0.04201,0.29819,1.10207,75.85937,69.01366,0.38027,9e-04,0.69651,0.04138,0.29595,1.09378,75.69451,68.88193,9e-04,0.3326,0.00783,0.1482,0.48449,0.00085,0.34575,0.0101,0.1493,0.52884,3.57119,1.71747,7.38118,9e-04,1.2729,0.54085,1.99893,9e-04,,,,,,,,hawaiion,hawaiion,"University of Hawaii, Honolulu, HI",David Cicero,ML2_Slate1_USEng_execution_legal_DEPLOY__hawaiion_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,hawaiion,1,1,1,1,1,1,102,13,95,102,102,0,100,"Execution
+legal 
+  102 ","SubjectPool
+Yes 
+102 ","Setting
+Online (at home) 
+             102 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                            102 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      102 ","analysis.type
+Secondary 
+      102 ","subset
+all 
+102 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:09.944309Z,13,Ross,1,,hkust,Secondary,Ross.1,105,25,80,Sign,You,25,,,,,,,,,,,,,,,,Refuse,You,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,22.6625,56,33.3375,4.97771227732131,8.94424635160527e-06,47.3294960549365,13.5051421592876,31.8198578407124,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.9777, df = 47.329, p-value = 8.944e-06
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 13.50514 31.81986
+sample estimates:
+  mean in group Sign mean in group Refuse 
+             56.0000              33.3375 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.97771227732131,2.75633885596412,7.15704566983798,105,25,80,1.14054,0.05869,0.63156,1.63989,87.29687,79.00174,0.58003,1e-05,1.13221,0.05784,0.62695,1.62792,87.12274,78.83169,1e-05,0.44035,0.00625,0.2621,0.57631,1e-05,0.47267,0.0098,0.26836,0.65693,7.91457,3.14407,19.57832,1e-05,2.06871,1.14552,2.97442,1e-05,,,,,,,,hkust,hkust,"Division of Social Science, The Hong Kong University of Science and Technology, Hong Kong, China",Eva Chen,ML2_Slate1_Chinese_Inlab_execution_illegal_DEPLOY__Hong_Kong_r.csv,DO.BR.FL_5,DO.BR.FL_6,"Hong Kong, China",Chinese (traditional),0,Yes,In a classroom,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,hkust,1,1,1,1,1,1,105,13,94,105,105,0,0,"Execution
+illegal 
+    105 ","SubjectPool
+Yes 
+105 ","Setting
+In a classroom 
+           105 ","Tablet
+Computers 
+      105 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      105 ","analysis.type
+Secondary 
+      105 ","subset
+all 
+105 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.006855Z,13,Ross,1,,hunancomp,Secondary,Ross.1,152,75,77,Sign,You,75,,,,,,,,,,,,,,,,Refuse,You,77,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,30.6119896103896,68.7016,38.0896103896104,8.7886405969284,3.91612420370437e-15,145.355044712097,23.7278628370468,37.4961163837324,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 8.7886, df = 145.36, p-value = 3.916e-15
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 23.72786 37.49612
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            68.70160             38.08961 
+",,,,,,,,,,,,,,,,,,,,,,,,,,8.7886405969284,6.5719342811858,10.9811659441905,152,75,77,1.42583,0.03301,1.0662,1.78153,92.30412,84.3324,0.68665,0,1.41869,0.03268,1.06086,1.77261,92.2005,84.21091,0,0.58301,0.00289,0.47283,0.66757,0,0.66702,0.00671,0.5137,0.80634,13.27879,6.91625,25.31371,0,2.58617,1.93387,3.23135,0,,,,,,,,hunancomp,hunancomp,"Guangdong Literature & Art Vocational College, Guangzhou, China",Zeng Zhijia,ML2_Slate1_Chinese_Mainland_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,China,Chinese (simplified),0,No,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,hunancomp,1,1,1,1,1,1,152,13,136,152,152,0,0,"Execution
+legal 
+  152 ","SubjectPool
+ No 
+152 ","Setting
+Online (at home) 
+             152 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                            152 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      152 ","analysis.type
+Secondary 
+      152 ","subset
+all 
+152 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.058432Z,13,Ross,1,,ithaca,Secondary,Ross.1,79,55,24,Sign,You,55,,,,,,,,,,,,,,,,Refuse,You,24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,17.0309090909091,74.0309090909091,57,3.24025263794671,0.00224322054364639,45.2083673644513,6.44604042807076,27.6157777537474,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 3.2403, df = 45.208, p-value = 0.002243
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  6.44604 27.61578
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            74.03091             57.00000 
+",,,,,,,,,,,,,,,,,,,,,,,,,,3.24025263794671,1.15413031119385,5.29419334037578,79,55,24,0.79269,0.06383,0.28235,1.29517,78.60219,71.24373,0.42487,0.00241,0.78495,0.06258,0.27959,1.28251,78.37579,71.0567,0.00241,0.3464,0.00993,0.1304,0.51659,0.00232,0.36135,0.01316,0.13115,0.57168,4.21137,1.66882,10.47694,0.00241,1.43779,0.51212,2.34918,0.00241,,,,,,,,ithaca,ithaca,"Department of Psychology, Ithaca College, Ithaca, NY 14850",Leigh Ann Vaughn,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,ithaca,1,1,1,1,1,1,79,12,77,79,79,0,100,"Execution
+legal 
+   79 ","SubjectPool
+Yes 
+ 79 ","Setting
+In a lab 
+      79 ","Tablet
+Computers 
+       79 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       79 ","analysis.type
+Secondary 
+       79 ","subset
+all 
+ 79 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.104755Z,13,Ross,1,,johannesburg,Secondary,Ross.1,52,33,19,Sign,You,33,,,,,,,,,,,,,,,,Refuse,You,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,23.8118022328549,70.969696969697,47.1578947368421,3.33768935563238,0.00242909673070667,27.5706148370622,9.18775949337263,38.4358449723371,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 3.3377, df = 27.571, p-value = 0.002429
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  9.187759 38.435845
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            70.96970             47.15789 
+",,,,,,,,,,,,,,,,,,,,,,,,,,3.33768935563238,1.16526950064137,5.45960743802083,52,33,19,0.9612,0.09182,0.33558,1.57228,83.17742,75.16436,0.50329,0.00259,0.94671,0.08907,0.33052,1.54858,82.81066,74.83877,0.00259,0.42686,0.01311,0.1626,0.61114,0.00244,0.45605,0.02041,0.16406,0.71074,5.71689,1.83799,17.31887,0.00259,1.74342,0.60867,2.8518,0.00259,,,,,,,,johannesburg,johannesburg,"University of Johannesburg, Johanneburg, South Africa",Byron Adams,ML2_Slate1_South_Africa_Inlab_execution_illegal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,South Africa,English,0,Yes,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,johannesburg,1,1,1,1,1,1,52,13,51,52,52,0,0,"Execution
+illegal 
+     52 ","SubjectPool
+Yes 
+ 52 ","Setting
+Online (at home) 
+              52 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                             52 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       52 ","analysis.type
+Secondary 
+       52 ","subset
+all 
+ 52 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.159601Z,13,Ross,1,,koc,Secondary,Ross.1,87,36,51,Sign,You,36,,,,,,,,,,,,,,,,Refuse,You,51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,15.5555555555556,68.2222222222222,52.6666666666667,3.62593944497072,0.000492577085699087,84.0437450544422,7.02433395665732,24.0867771544538,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 3.6259, df = 84.044, p-value = 0.0004926
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  7.024334 24.086777
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            68.22222             52.66667 
+",,,,,,,,,,,,,,,,,,,,,,,,,,3.62593944497072,1.58096151337565,5.6508652160532,87,36,51,0.7893,0.05097,0.34415,1.23009,78.50326,71.16193,0.42324,0.00075,0.78232,0.05007,0.3411,1.21921,78.29862,70.99308,0.00075,0.366,0.00872,0.16901,0.52257,7e-04,0.3838,0.0119,0.17065,0.57987,4.18555,1.86678,9.31051,0.00075,1.43164,0.62421,2.23114,0.00075,,,,,,,,koc,koc,"Koç University, Istanbul, Turkey","Zeynep Cemalcilar, Roza Kamiloglu",ML2_Slate1_Turkish_execution_illegal_Koc_r.csv,DO.BR.FL_5,DO.BR.FL_6,Turkey,Turkish,0,Yes,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,koc,1,1,1,1,1,1,87,13,82,87,87,0,0,"Execution
+illegal 
+     87 ","SubjectPool
+Yes 
+ 87 ","Setting
+Online (at home) 
+              87 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                             87 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       87 ","analysis.type
+Secondary 
+       87 ","subset
+all 
+ 87 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.231566Z,13,Ross,1,,lausanne,Secondary,Ross.1,113,38,75,Sign,You,38,,,,,,,,,,,,,,,,Refuse,You,75,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,18.640701754386,66.9473684210526,48.3066666666667,4.04661862825956,0.000114536058181351,84.4960616651784,9.48098007806675,27.8004234307052,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.0466, df = 84.496, p-value = 0.0001145
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  9.48098 27.80042
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            66.94737             48.30667 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.04661862825956,1.98321153588696,6.08812623653201,113,38,75,0.80577,0.04252,0.3949,1.21227,78.98112,71.55807,0.43116,0.00016,0.80031,0.04195,0.39222,1.20406,78.82343,71.42706,0.00016,0.35855,0.00678,0.18499,0.50033,0.00015,0.37522,0.00909,0.18714,0.54975,4.31242,2.04678,9.01437,0.00016,1.4615,0.71627,2.19882,0.00016,,,,,,,,lausanne,lausanne,"University of Lausanne, Switzerland",Eva Green,ML2_Slate1_French_Inlab_execution_illegal__swiss_r.csv,DO.BR.FL_5,DO.BR.FL_6,Switzerland,French,1,No,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,lausanne,1,1,1,1,1,1,113,13,104,113,113,0,100,"Execution
+illegal 
+    113 ","SubjectPool
+ No 
+113 ","Setting
+Online (at home) 
+             113 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                            113 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      113 ","analysis.type
+Secondary 
+      113 ","subset
+all 
+113 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.294602Z,13,Ross,1,,leuven,Secondary,Ross.1,109,54,55,Sign,You,54,,,,,,,,,,,,,,,,Refuse,You,55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,18.8302693602694,64.4848148148148,45.6545454545455,4.40406361878653,2.56122932863084e-05,105.247409031191,10.3526618790657,27.3078768414731,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.4041, df = 105.25, p-value = 2.561e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 10.35266 27.30788
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            64.48481             45.65455 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.40406361878653,2.34638608702498,6.44252022805438,109,54,55,0.8437,0.03997,0.4495,1.23421,80.05818,72.46083,0.44922,5e-05,0.83777,0.03941,0.44635,1.22554,79.8921,72.3207,5e-05,0.39173,0.00664,0.22121,0.52867,4e-05,0.41384,0.00943,0.22493,0.5883,4.61958,2.25988,9.38036,5e-05,1.5303,0.81531,2.23862,5e-05,,,,,,,,leuven,leuven,"University of Leuven, Belgium","Jeroen Stouten, Leander De Schutter",ML2_Slate1_Dutch_execution_illegal_DEPLOY__belgium_r.csv,DO.BR.FL_5,DO.BR.FL_6,Belgium,Dutch,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,leuven,1,1,1,1,1,1,109,13,107,109,109,0,100,"Execution
+illegal 
+    109 ","SubjectPool
+Yes 
+109 ","Setting
+In a lab 
+     109 ","Tablet
+Computers 
+      109 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      109 ","analysis.type
+Secondary 
+      109 ","subset
+all 
+109 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.350135Z,13,Ross,1,,lundon,Secondary,Ross.1,113,27,86,Sign,You,27,,,,,,,,,,,,,,,,Refuse,You,86,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,32.3333333333333,69.3333333333333,37,7.84342244343012,9.06216999299161e-11,60.005139572457,24.0874199233985,40.5792467432682,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 7.8434, df = 60.005, p-value = 9.062e-11
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 24.08742 40.57925
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            69.33333             37.00000 
+",,,,,,,,,,,,,,,,,,,,,,,,,,7.84342244343012,5.41261248623981,10.230124943423,113,27,86,1.73027,0.06191,1.19403,2.25678,95.82089,88.94268,0.77885,0,1.71855,0.06108,1.18594,2.2415,95.7152,88.7855,0,0.59715,0.0037,0.45697,0.69663,0,0.68871,0.00909,0.49347,0.86072,23.06604,8.72097,59.94003,0,3.13836,2.16573,4.09334,0,,,,,,,,lundon,lundon,"Lund University, Lund, Sweden","Åse Innes-Ker, Oskar Sundfelt, Anna Cabak Rédei",ML2_Slate1_Swedish_execution_illegal_r.csv,DO.BR.FL_5,DO.BR.FL_6,Sweden,Swedish,1,,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,lundon,1,1,1,1,1,1,113,13,103,113,113,0,100,"Execution
+illegal 
+    113 ","SubjectPool
+    
+113 ","Setting
+Online (at home) 
+             113 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                            113 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      113 ","analysis.type
+Secondary 
+      113 ","subset
+all 
+113 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.396490Z,13,Ross,1,,marian,Secondary,Ross.1,79,58,21,Sign,You,58,,,,,,,,,,,,,,,,Refuse,You,21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,21.5147783251232,70.0862068965517,48.5714285714286,4.08368863076994,0.000212185981714048,39.1281369879449,10.8594138589639,32.1701427912825,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.0837, df = 39.128, p-value = 0.0002122
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 10.85941 32.17014
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            70.08621             48.57143 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.08368863076994,1.90457407363255,6.2195426767346,79,58,21,1.04002,0.07171,0.48505,1.58398,85.08352,76.8954,0.53791,0.00022,1.02986,0.07031,0.48031,1.5685,84.84619,76.67606,0.00022,0.42193,0.00866,0.21211,0.57826,0.00019,0.45003,0.01316,0.21538,0.65985,6.59552,2.41038,17.69024,0.00022,1.88639,0.87979,2.87301,0.00022,,,,,,,,marian,marian,"Marian University, Indianapolis, IN",Brian Collisson,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,No,In a classroom,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,marian,1,1,1,1,1,1,79,13,73,79,79,0,100,"Execution
+legal 
+   79 ","SubjectPool
+No 
+79 ","Setting
+In a classroom 
+            79 ","Tablet
+Computers 
+       79 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       79 ","analysis.type
+Secondary 
+       79 ","subset
+all 
+ 79 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.452003Z,13,Ross,1,,mturk,Secondary,Ross.1,330,189,141,Sign,You,189,,,,,,,,,,,,,,,,Refuse,You,141,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,22.2895418214567,70.5661375661376,48.2765957446809,8.51413309333881,1.47706639639649e-15,254.472627291944,17.1339418799461,27.4451417629674,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 8.5141, df = 254.47, p-value = 1.477e-15
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 17.13394 27.44514
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            70.56614             48.27660 
+",,,,,,,,,,,,,,,,,,,,,,,,,,8.51413309333881,6.41199021075102,10.6015330303021,330,189,141,0.94745,0.01374,0.71353,1.17974,82.82956,74.85549,0.49711,0,0.94528,0.01368,0.71189,1.17704,82.77429,74.8066,0,0.42545,0.00204,0.33374,0.50518,0,0.45432,0.00306,0.34704,0.55624,5.57608,3.64805,8.49779,0,1.71849,1.29419,2.13981,0,,,,,,,,mturk,mturk,MTurk US Workers,Jesse Chandler,ML2_Slate1_USEng_mTurk_JC_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,No,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,mturk,1,1,1,1,1,1,330,13,266,330,330,0,100,"Execution
+legal 
+  330 ","SubjectPool
+ No 
+330 ","Setting
+Online (at home) 
+             330 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                            330 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      330 ","analysis.type
+Secondary 
+      330 ","subset
+all 
+330 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.503613Z,13,Ross,1,,mturk_india,Secondary,Ross.1,359,263,96,Sign,You,263,,,,,,,,,,,,,,,,Refuse,You,96,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,26.8962294043092,67.6045627376426,40.7083333333333,10.3433370041092,2.5779238084982e-19,151.939163085976,21.7587299854016,32.0337288232169,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 10.343, df = 151.94, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 21.75873 32.03373
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            67.60456             40.70833 
+",,,,,,,,,,,,,,,,,,,,,,,,,,10.3433370041092,8.05202634627432,12.6090521658063,359,263,96,1.23337,0.01634,0.96015,1.50354,89.12817,80.84303,0.61686,0,1.23078,0.01627,0.95813,1.50038,89.07974,80.79298,0,0.48019,0.00165,0.39204,0.55509,0,0.52323,0.00281,0.41421,0.62571,9.36605,5.706,15.2889,0,2.23709,1.74152,2.72713,0,,,,,,,,mturk_india,mturk_india,MTurk India Workers,Jesse Chandler,ML2_Slate1_IndiaEng_execution_legal_MTurk_r.csv,DO.BR.FL_eDp84FUKYplaCwd,DO.BR.FL_0qZ2pBW0Kp8oO5D,India,English,0,No,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,mturk_india,1,1,1,1,1,1,224,13,195,359,359,0,0,"Execution
+legal 
+  359 ","SubjectPool
+ No 
+359 ","Setting
+Online (at home) 
+             359 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                            359 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      359 ","analysis.type
+Secondary 
+      359 ","subset
+all 
+359 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.612043Z,13,Ross,1,,navarra,Secondary,Ross.1,54,30,24,Sign,You,30,,,,,,,,,,,,,,,,Refuse,You,24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,18.725,65.6,46.875,3.48393985045998,0.00109466181680011,46.0831603270495,7.90689282260825,29.5431071773917,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 3.4839, df = 46.083, p-value = 0.001095
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  7.906893 29.543107
+sample estimates:
+  mean in group Sign mean in group Refuse 
+              65.600               46.875 
+",,,,,,,,,,,,,,,,,,,,,,,,,,3.48393985045998,1.38282375690683,5.55155298865867,54,30,24,0.95412,0.08343,0.3787,1.52036,82.99876,75.00547,0.50011,0.00173,0.94029,0.08103,0.37321,1.49832,82.64652,74.69378,0.00173,0.43502,0.0124,0.18833,0.61002,0.00161,0.46608,0.01961,0.19061,0.70896,5.6439,1.98752,15.76228,0.00173,1.73058,0.68689,2.75762,0.00173,,,,,,,,navarra,navarra,"University of Navarra, Spain",Austin Lee Nichols,ML2_Slate1_EngSpain_Inlab_execution_illegal__navarra_r.csv,DO.BR.FL_5,DO.BR.FL_6,Spain,English,1,No,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,navarra,1,1,1,1,1,1,54,13,53,54,54,0,100,"Execution
+illegal 
+     54 ","SubjectPool
+No 
+54 ","Setting
+Online (at home) 
+              54 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                             54 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       54 ","analysis.type
+Secondary 
+       54 ","subset
+all 
+ 54 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.674011Z,13,Ross,1,,ntnu,Secondary,Ross.1,84,45,39,Sign,You,45,,,,,,,,,,,,,,,,Refuse,You,39,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,31.0452991452991,71.1555555555556,40.1102564102564,7.72987085460721,9.62824589363613e-11,64.0282532073976,23.0219325413671,39.0686657492312,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 7.7299, df = 64.028, p-value = 9.628e-11
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 23.02193 39.06867
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            71.15556             40.11026 
+",,,,,,,,,,,,,,,,,,,,,,,,,,7.72987085460721,5.33684773304393,10.0809453622611,84,45,39,1.69112,0.06489,1.16758,2.20548,95.45926,88.41126,0.76823,0,1.6756,0.0637,1.15687,2.18524,95.30918,88.19574,0,0.64925,0.00403,0.50774,0.74393,0,0.77399,0.01235,0.55968,0.95923,21.48478,8.31243,54.61404,0,3.06734,2.11775,4.00029,0,,,,,,,,ntnu,ntnu,"Academia Sinica, Taiwan National Taiwan Normal University, Taiwan",Jen-Ho Chang,ML2_Slate1_Taiwan_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,Taiwan,Chinese (traditional),0,No,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,ntnu,1,1,1,1,1,1,84,13,78,84,84,0,0,"Execution
+legal 
+   84 ","SubjectPool
+No 
+84 ","Setting
+In a lab 
+      84 ","Tablet
+Computers 
+       84 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       84 ","analysis.type
+Secondary 
+       84 ","subset
+all 
+ 84 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.724479Z,13,Ross,1,,ntnutab,Secondary,Ross.1,51,29,22,Sign,You,29,,,,,,,,,,,,,,,,Refuse,You,22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,14.7962382445141,66.0689655172414,51.2727272727273,2.65009083346045,0.0110118086042966,45.761252432745,3.55606631151816,26.0364101775101,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 2.6501, df = 45.761, p-value = 0.01101
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  3.556066 26.036410
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            66.06897             51.27273 
+",,,,,,,,,,,,,,,,,,,,,,,,,,2.65009083346045,0.603264180162651,4.67000911054407,51,29,22,0.74927,0.08544,0.17056,1.32036,77.31513,70.18783,0.40376,0.01349,0.73774,0.08283,0.16794,1.30005,76.96631,69.90463,0.01349,0.35406,0.0153,0.08586,0.55498,0.01347,0.37008,0.02083,0.08607,0.62554,3.89236,1.36256,10.96676,0.01349,1.35902,0.30937,2.39487,0.01349,,,,,,,,ntnutab,ntnu,"Academia Sinica, Taiwan National Taiwan Normal University, Taiwan",Jen-Ho Chang,ML2_Slate1_Taiwan_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,Taiwan,Chinese (traditional),0,No,In a lab,Tablets,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,ntnutab,1,1,1,1,1,1,51,12,50,51,51,0,0,"Execution
+legal 
+   51 ","SubjectPool
+No 
+51 ","Setting
+In a lab 
+      51 ","Tablet
+Tablets 
+     51 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       51 ","analysis.type
+Secondary 
+       51 ","subset
+all 
+ 51 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.769628Z,13,Ross,1,,occid,Secondary,Ross.1,67,38,29,Sign,You,38,,,,,,,,,,,,,,,,Refuse,You,29,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,23.0934664246824,74.921052631579,51.8275862068966,4.61909938120467,3.25558313138746e-05,44.7986904772708,13.0225857872092,33.1643470621556,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.6191, df = 44.799, p-value = 3.256e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 13.02259 33.16435
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            74.92105             51.82759 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.61909938120467,2.41844120758098,6.77780933527176,67,38,29,1.13895,0.07048,0.59632,1.67123,87.26376,78.96934,0.57939,6e-05,1.12576,0.06886,0.58942,1.65187,86.98655,78.69925,6e-05,0.49712,0.00859,0.28732,0.6435,5e-05,0.54547,0.01562,0.29564,0.76412,7.89179,2.94943,20.72362,6e-05,2.06582,1.08161,3.03127,6e-05,,,,,,,,occid,occid,"Department of Cognitive Science, Occidental College, Los Angeles, CA",Carmel Levitan,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,occid,1,1,2,1,1,1,67,13,63,67,67,0,100,"Execution
+legal 
+   67 ","SubjectPool
+Yes 
+ 67 ","Setting
+In a lab 
+      67 ","Tablet
+Computers   Tablets 
+       66         1 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       67 ","analysis.type
+Secondary 
+       67 ","subset
+all 
+ 67 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.818416Z,13,Ross,1,,occidtab,Secondary,Ross.1,80,54,26,Sign,You,54,,,,,,,,,,,,,,,,Refuse,You,26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,25.4088319088319,70.3703703703704,44.9615384615385,5.34585124807846,2.92336968797754e-06,44.76567644103,15.834414905148,34.9832489125158,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.3459, df = 44.766, p-value = 2.923e-06
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 15.83441 34.98325
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            70.37037             44.96154 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.34585124807846,3.07339723077154,7.57255410548401,80,54,26,1.27608,0.06716,0.73364,1.80761,89.90366,81.65581,0.63312,0,1.26377,0.06587,0.72656,1.79017,89.6844,81.42378,0,0.51782,0.00678,0.32866,0.65091,0,0.57336,0.01299,0.34133,0.77688,10.12042,3.78357,26.53952,0,2.31456,1.33067,3.27863,0,,,,,,,,occidtab,occid,"Department of Cognitive Science, Occidental College, Los Angeles, CA",Carmel Levitan,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Tablets,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,occidtab,1,1,2,1,1,1,80,13,78,80,80,0,100,"Execution
+legal 
+   80 ","SubjectPool
+Yes 
+ 80 ","Setting
+In a lab 
+      80 ","Tablet
+Computers   Tablets 
+       41        39 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       80 ","analysis.type
+Secondary 
+       80 ","subset
+all 
+ 80 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.857600Z,13,Ross,1,,ouhktab,Secondary,Ross.1,40,14,26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,25.4088319088319,70.3703703703704,44.9615384615385,5.34585124807846,2.92336968797754e-06,44.76567644103,15.834414905148,34.9832489125158,Welch Two Sample t-test,two.sided,t,FALSE,"",,,,,,,,,,,,,,,,,,,,,,,,,,5.34585124807846,3.07339723077154,7.57255410548401,80,54,26,1.27608,0.06716,0.73364,1.80761,89.90366,81.65581,0.63312,0,1.26377,0.06587,0.72656,1.79017,89.6844,81.42378,0,0.51782,0.00678,0.32866,0.65091,0,0.57336,0.01299,0.34133,0.77688,10.12042,3.78357,26.53952,0,2.31456,1.33067,3.27863,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.916535Z,13,Ross,1,,plu,Secondary,Ross.1,96,71,25,Sign,You,71,,,,,,,,,,,,,,,,Refuse,You,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,23.2856338028169,74.6056338028169,51.32,4.11073921744328,0.000278141690052236,30.2397449352049,11.7208516762079,34.8504159294259,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.1107, df = 30.24, p-value = 0.0002781
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 11.72085 34.85042
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            74.60563             51.32000 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.11073921744328,1.86913692336163,6.29887410508846,96,71,25,0.956,0.05884,0.43469,1.46487,83.0463,75.0477,0.50095,0.00016,0.94835,0.05791,0.43121,1.45315,82.8524,74.87571,0.00016,0.39035,0.00756,0.1893,0.5448,0.00014,0.41222,0.01075,0.19161,0.61096,5.66318,2.19995,14.25321,0.00016,1.73399,0.78844,2.65698,0.00016,,,,,,,,plu,plu,"Pacific Lutheran University, Tacoma, WA",Jon Grahe,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY__pencilpaper_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"Yes, participants completed the Critcher task on pencil and paper",legal,Slate1,plu,1,1,1,1,1,1,96,13,88,96,96,0,100,"Execution
+legal 
+   96 ","SubjectPool
+Yes 
+ 96 ","Setting
+In a lab 
+      96 ","Tablet
+Computers 
+       96 ","Pencil
+Yes, participants completed the Critcher task on pencil and paper 
+                                                               96 ","analysis.type
+Secondary 
+       96 ","subset
+all 
+ 96 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:10.994276Z,13,Ross,1,,poitiers,Secondary,Ross.1,43,16,27,Sign,You,16,,,,,,,,,,,,,,,,Refuse,You,27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,32.0416666666667,71.375,39.3333333333333,4.54292794949878,6.39075648941776e-05,34.8065038583883,17.7202925652865,46.3630407680468,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.5429, df = 34.807, p-value = 6.391e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 17.72029 46.36304
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            71.37500             39.33333 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.54292794949878,2.287772582528,6.74733443934084,43,16,27,1.43327,0.12342,0.72178,2.12875,92.41097,84.45834,0.68917,2e-04,1.40689,0.11892,0.7085,2.08957,92.02702,84.00887,2e-04,0.57864,0.01053,0.33646,0.72537,0.00015,0.66042,0.025,0.35009,0.91888,13.45923,3.70308,47.51877,2e-04,2.59967,1.30917,3.86112,2e-04,,,,,,,,poitiers,poitiers,"Université de Poitiers, France",Armand Chatard,ML2_Slate1_French_Inlab_execution_illegal_pencilpaper_r.csv,DO.BR.FL_5,DO.BR.FL_6,France,French,1,No,In a lab,Computers,"Yes, participants completed the Critcher task on pencil and paper",illegal,Slate1,poitiers,1,1,1,1,1,1,43,13,43,43,43,0,100,"Execution
+illegal 
+     43 ","SubjectPool
+No 
+43 ","Setting
+In a lab 
+      43 ","Tablet
+Computers 
+       43 ","Pencil
+Yes, participants completed the Critcher task on pencil and paper 
+                                                               43 ","analysis.type
+Secondary 
+       43 ","subset
+all 
+ 43 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.050415Z,13,Ross,1,,potsdam,Secondary,Ross.1,91,25,66,Sign,You,25,,,,,,,,,,,,,,,,Refuse,You,66,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,23.1818181818182,60,36.8181818181818,4.37514951157592,6.57198907108721e-05,47.6884507198736,12.5266309360797,33.8370054275567,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.3751, df = 47.688, p-value = 6.572e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 12.52663 33.83701
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            60.00000             36.81818 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.37514951157592,2.20923072334665,6.50262864449827,91,25,66,1.02748,0.06095,0.51882,1.5271,84.79018,76.62446,0.53249,7e-05,1.01879,0.05993,0.51444,1.5142,84.58494,76.43592,7e-05,0.42072,0.00753,0.22801,0.56752,6e-05,0.44857,0.01136,0.23209,0.64386,6.44713,2.56265,15.95631,7e-05,1.86364,0.94104,2.76985,7e-05,,,,,,,,potsdam,potsdam,"University of Potsdam, Germany",Robert Busching,Slate_1_Deutsch_germany_Revised_Version_2__potsdam_r_manuallyrecode_vanp21_text.csv,DO.BR.FL_5,DO.BR.FL_6,Germany,German,1,Yes,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,potsdam,1,1,1,1,1,1,91,13,86,91,91,0,100,"Execution
+illegal 
+     91 ","SubjectPool
+Yes 
+ 91 ","Setting
+Online (at home) 
+              91 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                             91 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       91 ","analysis.type
+Secondary 
+       91 ","subset
+all 
+ 91 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.095635Z,13,Ross,1,,pscio,Secondary,Ross.1,86,33,53,Sign,You,33,,,,,,,,,,,,,,,,Refuse,You,53,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,20.4528301886792,60,39.5471698113208,4.16973882283013,9.01542378728535e-05,66.5095960599467,10.6609569883772,30.2447033889813,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.1697, df = 66.51, p-value = 9.015e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 10.66096 30.24470
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            60.00000             39.54717 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.16973882283013,2.07215356695692,6.23948428974842,86,33,53,0.92462,0.05414,0.45949,1.38358,82.24181,74.33812,0.48676,0.00015,0.91634,0.05318,0.45538,1.37119,82.02556,74.14913,0.00015,0.41411,0.00808,0.22052,0.56275,0.00013,0.44056,0.01205,0.22421,0.63685,5.34988,2.30118,12.29914,0.00015,1.67707,0.83342,2.50953,0.00015,,,,,,,,pscio,pscio,"University of the Republic, Montevideo, Uruguay",Alejandro Vasquez Echeverría,ML2_Slate1_Spanish_execution_illegal__Uruguay_r.csv,DO.BR.FL_5,DO.BR.FL_6,Uruguay,Spanish,0,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,pscio,1,1,1,1,1,1,86,13,81,86,86,0,0,"Execution
+illegal 
+     86 ","SubjectPool
+Yes 
+ 86 ","Setting
+In a lab 
+      86 ","Tablet
+Computers 
+       86 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       86 ","analysis.type
+Secondary 
+       86 ","subset
+all 
+ 86 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.140616Z,13,Ross,1,,psuabington,Secondary,Ross.1,91,55,36,Sign,You,55,,,,,,,,,,,,,,,,Refuse,You,36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,15.3859090909091,65.6909090909091,50.305,2.94355762875276,0.00452963582864871,63.3956809511436,4.94190403184067,25.8299141499775,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 2.9436, df = 63.396, p-value = 0.00453
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  4.941904 25.829914
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            65.69091             50.30500 
+",,,,,,,,,,,,,,,,,,,,,,,,,,2.94355762875276,0.907110785296709,4.95824788410731,91,55,36,0.63105,0.04815,0.19447,1.06296,73.59946,67.22796,0.34456,0.00504,0.62571,0.04734,0.19282,1.05398,73.42483,67.09166,0.00504,0.29785,0.00923,0.09571,0.46523,0.00496,0.30716,0.01136,0.09601,0.50397,3.14115,1.42294,6.8757,0.00504,1.14459,0.35273,1.92799,0.00504,,,,,,,,psuabington,psuabington,"Department of Psychology, Pennsylvania State University Abington, Abington, PA 19001",Michael J. Bernstein,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,psuabington,1,1,1,1,1,1,91,13,87,91,91,0,100,"Execution
+legal 
+   91 ","SubjectPool
+Yes 
+ 91 ","Setting
+In a lab 
+      91 ","Tablet
+Computers 
+       91 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       91 ","analysis.type
+Secondary 
+       91 ","subset
+all 
+ 91 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.186307Z,13,Ross,1,,psuabingtontab,Secondary,Ross.1,81,49,32,Sign,You,49,,,,,,,,,,,,,,,,Refuse,You,32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,25.2835459183674,67.6897959183674,42.40625,4.47979759342991,2.97019021163848e-05,67.3095142553837,14.0192192536223,36.5478725831125,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.4798, df = 67.31, p-value = 2.97e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 14.01922 36.54787
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            67.68980             42.40625 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.47979759342991,2.36477266612734,6.56571493970195,81,49,32,1.01819,0.05806,0.53748,1.49228,84.57056,76.42275,0.52845,6e-05,1.00849,0.05696,0.53236,1.47807,84.33905,76.21114,6e-05,0.45008,0.00795,0.25711,0.59417,5e-05,0.4848,0.01282,0.26301,0.68408,6.33943,2.65083,14.97982,6e-05,1.84679,0.97487,2.7067,6e-05,,,,,,,,psuabingtontab,psuabington,"Department of Psychology, Pennsylvania State University Abington, Abington, PA 19001",Michael J. Bernstein,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Tablets,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,psuabingtontab,1,1,1,1,1,1,81,13,77,81,81,0,100,"Execution
+legal 
+   81 ","SubjectPool
+Yes 
+ 81 ","Setting
+In a lab 
+      81 ","Tablet
+Tablets 
+     81 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       81 ","analysis.type
+Secondary 
+       81 ","subset
+all 
+ 81 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.232876Z,13,Ross,1,,psumain,Secondary,Ross.1,82,61,21,Sign,You,61,,,,,,,,,,,,,,,,Refuse,You,21,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,26.1818891491023,75.2295081967213,49.0476190476191,5.26870784490186,1.38793580258347e-05,27.5999686355665,15.9960500626035,36.367728235601,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.2687, df = 27.6, p-value = 1.388e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 15.99605 36.36773
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            75.22951             49.04762 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.26870784490186,2.83759814654729,7.63547536351092,82,61,21,1.33302,0.07485,0.71793,1.93183,90.87373,82.70539,0.65411,1e-05,1.32048,0.07345,0.71118,1.91366,90.66631,82.47765,1e-05,0.50755,0.0068,0.3024,0.64927,0,0.55942,0.01266,0.31216,0.77403,11.22148,3.67732,33.24646,1e-05,2.41783,1.30218,3.50395,1e-05,,,,,,,,psumain,psumain,The Pennsylvania State University,"Reginald B. Adams, Jr, Anthony J. Nelson, Troy G. Steiner",ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,psumain,1,1,1,1,1,1,82,13,80,82,82,0,100,"Execution
+legal 
+   82 ","SubjectPool
+Yes 
+ 82 ","Setting
+In a lab 
+      82 ","Tablet
+Computers 
+       82 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       82 ","analysis.type
+Secondary 
+       82 ","subset
+all 
+ 82 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.306974Z,13,Ross,1,,purkyne,Secondary,Ross.1,141,48,93,Sign,You,48,,,,,,,,,,,,,,,,Refuse,You,93,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,22.6767741935484,64.4166666666667,41.7398924731183,5.60551860778451,1.7325928572791e-07,103.487206247491,14.6540522947925,30.6994960923042,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.6055, df = 103.49, p-value = 1.733e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 14.65405 30.69950
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            64.41667             41.73989 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.60551860778451,3.49054189206955,7.69683605857287,141,48,93,0.99624,0.03511,0.62036,1.36792,84.04328,75.94227,0.51885,0,0.99085,0.03473,0.617,1.36052,83.91214,75.82359,0,0.42939,0.00475,0.28388,0.54666,0,0.45915,0.00725,0.2919,0.6136,6.092,3.08083,11.95473,0,1.80698,1.1252,2.48113,0,,,,,,,,purkyne,purkyne,"The University of J. E. Purkyně, Ústí nad Labem, Czech Republic",Petr Houdek,ML2_Slate1_Czech_execution_illegal_r.csv,DO.BR.FL_5,DO.BR.FL_6,Czech Republic,Czech,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,purkyne,1,1,1,1,1,1,141,13,130,141,141,0,100,"Execution
+illegal 
+    141 ","SubjectPool
+Yes 
+141 ","Setting
+In a lab 
+     141 ","Tablet
+Computers 
+      141 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      141 ","analysis.type
+Secondary 
+      141 ","subset
+all 
+141 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.360500Z,13,Ross,1,,sandiegosu,Secondary,Ross.1,174,123,51,Sign,You,123,,,,,,,,,,,,,,,,Refuse,You,51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,22.3204208512673,73.3008130081301,50.9803921568627,5.91082724360364,9.45909339265155e-08,74.7615921669554,14.7974666431162,29.8433750594184,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.9108, df = 74.762, p-value = 9.459e-08
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 14.79747 29.84338
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            73.30081             50.98039 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.91082724360364,3.71841882699012,8.07089365564114,174,123,51,0.98443,0.03052,0.61929,1.34418,83.75482,75.68162,0.51363,0,0.98013,0.03026,0.61659,1.33831,83.64895,75.58634,0,0.41089,0.00399,0.27277,0.52411,0,0.43668,0.00585,0.27986,0.58199,5.96292,3.0749,11.45103,0,1.78556,1.12327,2.43808,0,,,,,,,,sandiegosu,sandiegosu,"Department of Psychology, San Diego State University, San Diego, CA 92182",Thierry Devos,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY__pencilpaper_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"Yes, participants completed the Critcher task on pencil and paper",legal,Slate1,sandiegosu,1,1,1,1,1,1,174,13,154,174,174,0,100,"Execution
+legal 
+  174 ","SubjectPool
+Yes 
+174 ","Setting
+In a lab 
+     174 ","Tablet
+Computers 
+      174 ","Pencil
+Yes, participants completed the Critcher task on pencil and paper 
+                                                              174 ","analysis.type
+Secondary 
+      174 ","subset
+all 
+174 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.405628Z,13,Ross,1,,santiagoon,Secondary,Ross.1,60,28,32,Sign,You,28,,,,,,,,,,,,,,,,Refuse,You,32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,19.7991071428571,65.8928571428571,46.09375,3.71910045948056,0.000454752588088332,57.6517841055886,9.14133742878652,30.4568768569278,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 3.7191, df = 57.652, p-value = 0.0004548
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  9.141337 30.456877
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            65.89286             46.09375 
+",,,,,,,,,,,,,,,,,,,,,,,,,,3.71910045948056,1.63094732210917,5.77835860985596,60,28,32,0.96241,0.07468,0.42205,1.49529,83.20778,75.19142,0.50383,0.00084,0.94991,0.07276,0.41657,1.47587,82.8921,74.91087,0.00084,0.43881,0.01105,0.20941,0.60444,0.00076,0.47076,0.01754,0.21255,0.70012,5.72943,2.15009,15.06178,0.00084,1.74562,0.76551,2.71216,0.00084,,,,,,,,santiagoon,santiagoon,"Santiago, Chile","David Sirlopú, Francisco Ceric",ML2_Slate1_Spanish_execution_illegal__Chile_r.csv,DO.BR.FL_5,DO.BR.FL_6,Chile,Spanish,1,Yes,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,santiagoon,1,1,1,1,1,1,60,13,59,60,60,0,100,"Execution
+illegal 
+     60 ","SubjectPool
+Yes 
+ 60 ","Setting
+Online (at home) 
+              60 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                             60 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       60 ","analysis.type
+Secondary 
+       60 ","subset
+all 
+ 60 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.451651Z,13,Ross,1,,swps,Secondary,Ross.1,95,47,48,Sign,You,47,,,,,,,,,,,,,,,,Refuse,You,48,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,24.1010638297872,67.8510638297872,43.75,5.64105457866851,1.81583132721211e-07,92.8644484045772,15.6166827087697,32.5854449508048,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.6411, df = 92.864, p-value = 1.816e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 15.61668 32.58544
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            67.85106             43.75000 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.64105457866851,3.50718972218964,7.74880993943787,95,47,48,1.15758,0.04916,0.7197,1.59011,87.64831,79.34743,0.58695,0,1.14822,0.04837,0.71388,1.57725,87.45619,79.15803,0,0.50491,0.00591,0.34178,0.62636,0,0.55588,0.01087,0.3561,0.73541,8.16311,3.68913,17.8882,0,2.09963,1.30539,2.88414,0,,,,,,,,swps,swps,"Department of Psychology, SWPS University of Social Sciences and Humanities Campus Sopot, Sopot, Poland","Konrad Bocian, Natalia Frankowska, Olga Bialobrzeska, Marta Wrońska, Małgorzata Osowiecka",ML2_Slate1_Polish_Inlab_execution_illegal_r.csv,DO.BR.FL_5,DO.BR.FL_6,Poland,Polish,1,No,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,swps,1,1,1,1,1,1,95,13,86,95,95,0,100,"Execution
+illegal 
+     95 ","SubjectPool
+No 
+95 ","Setting
+In a lab 
+      95 ","Tablet
+Computers 
+       95 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       95 ","analysis.type
+Secondary 
+       95 ","subset
+all 
+ 95 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.502142Z,13,Ross,1,,tamu,Secondary,Ross.1,98,81,17,Sign,You,81,,,,,,,,,,,,,,,,Refuse,You,17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,23.2992011619463,76.358024691358,53.0588235294118,3.96047616336906,0.000788210614889804,19.7376231979135,11.0171595816274,35.5812427422651,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 3.9605, df = 19.738, p-value = 0.0007882
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 11.01716 35.58124
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            76.35802             53.05882 
+",,,,,,,,,,,,,,,,,,,,,,,,,,3.96047616336906,1.6119034267831,6.23688678508473,98,81,17,1.05656,0.07686,0.43002,1.66385,85.46434,77.24983,0.545,0.00024,1.04828,0.07567,0.42665,1.65082,85.27457,77.07283,0.00024,0.37476,0.00762,0.16233,0.53699,0.00022,0.39395,0.01053,0.16378,0.59991,6.79634,2.18139,20.44807,0.00024,1.91638,0.77996,3.01789,0.00024,,,,,,,,tamu,tamu,"Department of Psychology, Texas A&M University, College Station, TX 77843","William E. Davis, Joshua A. Hicks",ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,tamu,1,1,1,1,1,1,98,13,92,98,98,0,100,"Execution
+legal 
+   98 ","SubjectPool
+Yes 
+ 98 ","Setting
+In a lab 
+      98 ","Tablet
+Computers 
+       98 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       98 ","analysis.type
+Secondary 
+       98 ","subset
+all 
+ 98 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.553695Z,13,Ross,1,,tilburg,Secondary,Ross.1,97,41,56,Sign,You,41,,,,,,,,,,,,,,,,Refuse,You,56,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,19.9316202090592,63.8780487804878,43.9464285714286,5.57555625247841,2.33158565771255e-07,94.4874883014741,12.8342050456173,27.0290353725012,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.5756, df = 94.487, p-value = 2.332e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 12.83421 27.02904
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            63.87805             43.94643 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.57555625247841,3.4481651560217,7.67744289481237,97,41,56,1.14601,0.04902,0.70874,1.57803,87.41043,79.11307,0.58226,0,1.13694,0.04824,0.70313,1.56554,87.22179,78.92832,0,0.49654,0.00591,0.33352,0.61878,0,0.5447,0.01064,0.34678,0.72303,7.99352,3.61653,17.50065,0,2.07863,1.28552,2.86224,0,,,,,,,,tilburg,tilburg,"Department of Social Psychology, Tilburg University, P.O. Box 90153, Tilburg, 5000 LE, Netherlands","Hans IJzerman, Mark J. Brandt, A. E. van 't Veer, Mark Verschoor, Marieke de Vries, German Kurapov, Maaike de Bruijn, Esther Maassen",ML2_Slate1_Dutch_execution_illegal_DEPLOY__netherlands_r.csv,DO.BR.FL_5,DO.BR.FL_6,The Netherlands,Dutch,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,tilburg,1,1,1,1,1,1,97,13,91,97,97,0,100,"Execution
+illegal 
+     97 ","SubjectPool
+Yes 
+ 97 ","Setting
+In a lab 
+      97 ","Tablet
+Computers 
+       97 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       97 ","analysis.type
+Secondary 
+       97 ","subset
+all 
+ 97 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.627547Z,13,Ross,1,,tilburgcaf,Secondary,Ross.1,80,36,44,Sign,You,36,,,,,,,,,,,,,,,,Refuse,You,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,24.4646464646465,59.3055555555556,34.8409090909091,4.89797510201616,5.89612813220541e-06,70.8881882431306,14.5049280206648,34.4243649086282,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.898, df = 70.888, p-value = 5.896e-06
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 14.50493 34.42436
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            59.30556             34.84091 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.89797510201616,2.76434770916475,7.00187294817041,80,36,44,1.10074,0.05808,0.62124,1.57355,86.44947,78.18155,0.56363,2e-05,1.09012,0.05696,0.61525,1.55837,86.21699,77.95965,2e-05,0.485,0.0074,0.29871,0.62125,1e-05,0.5295,0.01299,0.3081,0.72704,7.36337,3.08579,17.359,2e-05,1.99652,1.12681,2.85411,2e-05,,,,,,,,tilburgcaf,tilburgcaf,"Department of Social Psychology, Tilburg University, P.O. Box 90153, Tilburg, 5000 LE, Netherlands","Hans IJzerman, Mark J. Brandt, A. E. van 't Veer, Mark Verschoor, Marieke de Vries, German Kurapov, Maaike de Bruijn, Esther Maassen",ML2_Slate1_Dutch_execution_illegal_DEPLOY__netherlands_r.csv,DO.BR.FL_5,DO.BR.FL_6,The Netherlands,Dutch,1,No,Other (please indicate),Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,tilburgcaf,1,1,1,1,1,1,80,13,73,80,80,0,100,"Execution
+illegal 
+     80 ","SubjectPool
+No 
+80 ","Setting
+Other (please indicate) 
+                     80 ","Tablet
+Computers 
+       80 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       80 ","analysis.type
+Secondary 
+       80 ","subset
+all 
+ 80 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.681733Z,13,Ross,1,,tilburgcomm,Secondary,Ross.1,102,42,60,Sign,You,42,,,,,,,,,,,,,,,,Refuse,You,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,27.2285714285714,63.9285714285714,36.7,6.92787131677628,4.75140940379236e-10,96.6896350663509,19.4277094683314,35.0294333888115,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 6.9279, df = 96.69, p-value = 4.751e-10
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 19.42771 35.02943
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            63.92857             36.70000 
+",,,,,,,,,,,,,,,,,,,,,,,,,,6.92787131677628,4.72421728715748,9.1025166517072,102,42,60,1.3938,0.05,0.95045,1.83131,91.83106,83.78263,0.67565,0,1.38332,0.04925,0.9433,1.81754,91.67163,83.60007,0,0.56948,0.00452,0.42715,0.67314,0,0.64675,0.0101,0.45641,0.81647,12.52929,5.6065,27.70532,0,2.52807,1.72393,3.32162,0,,,,,,,,tilburgcomm,tilburgcomm,"Department of Communication and Information Sciences, P.O. Box 90153, Tilburg, 5000 LE, Netherlands",M.M.H. Pollmann,ML2_Slate1_Dutch_execution_illegal_DEPLOY__netherlands_tilburgcomm_r.csv,DO.BR.FL_5,DO.BR.FL_6,The Netherlands,Dutch,1,Yes,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,tilburgcomm,1,1,1,1,1,1,102,13,92,102,102,0,100,"Execution
+illegal 
+    102 ","SubjectPool
+Yes 
+102 ","Setting
+Online (at home) 
+             102 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                            102 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      102 ","analysis.type
+Secondary 
+      102 ","subset
+all 
+102 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.728395Z,13,Ross,1,,toronto,Secondary,Ross.1,351,197,154,Sign,You,197,,,,,,,,,,,,,,,,Refuse,You,154,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,24.0328301140484,71.9289340101523,47.8961038961039,11.1560043744701,3.44812344159214e-24,282.503274001919,19.7924099783534,28.2732502497434,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 11.156, df = 282.5, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 19.79241 28.27325
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            71.92893             47.89610 
+",,,,,,,,,,,,,,,,,,,,,,,,,,11.1560043744701,8.98290668391968,13.312745579976,351,197,154,1.19997,0.01362,0.96622,1.43195,88.49236,80.19213,0.60384,0,1.19738,0.01356,0.96414,1.42887,88.44217,80.1413,0,0.51271,0.00155,0.43335,0.58034,0,0.56639,0.00287,0.46401,0.66297,8.81537,5.7692,13.42702,0,2.1765,1.75253,2.59727,0,,,,,,,,toronto,toronto,"University of Toronto, Scarborough",Yoel Inbar,ML2_Slate1_CanadaEng_Inlab_execution_illegal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,Canada,English,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,toronto,1,1,1,1,1,1,351,13,285,351,351,0,100,"Execution
+illegal 
+    351 ","SubjectPool
+Yes 
+351 ","Setting
+In a lab 
+     351 ","Tablet
+Computers 
+      351 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      351 ","analysis.type
+Secondary 
+      351 ","subset
+all 
+351 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.773313Z,13,Ross,1,,tufts,Secondary,Ross.1,86,59,27,Sign,You,59,,,,,,,,,,,,,,,,Refuse,You,27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,16.3270558694288,72.0677966101695,55.7407407407407,3.41209907260297,0.00140252605177426,43.5576555870017,6.68065958472496,25.9734521541326,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 3.4121, df = 43.558, p-value = 0.001403
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  6.68066 25.97345
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            72.06780             55.74074 
+",,,,,,,,,,,,,,,,,,,,,,,,,,3.41209907260297,1.3086640873127,5.48088427773428,86,59,27,0.7928,0.05764,0.30407,1.27348,78.60525,71.24626,0.42493,0.00141,0.7857,0.05661,0.30134,1.26208,78.39781,71.07487,0.00141,0.3489,0.00907,0.14135,0.51324,0.00134,0.36419,0.01205,0.14231,0.56712,4.21217,1.73588,10.07278,0.00141,1.43798,0.55152,2.30984,0.00141,,,,,,,,tufts,tufts,Tufts,Satia Marotta,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY__pencilpaper_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"Yes, participants completed the Critcher task on pencil and paper",legal,Slate1,tufts,1,1,1,1,1,1,86,13,82,86,86,0,100,"Execution
+legal 
+   86 ","SubjectPool
+Yes 
+ 86 ","Setting
+In a lab 
+      86 ","Tablet
+Computers 
+       86 ","Pencil
+Yes, participants completed the Critcher task on pencil and paper 
+                                                               86 ","analysis.type
+Secondary 
+       86 ","subset
+all 
+ 86 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.819374Z,13,Ross,1,,ubc,Secondary,Ross.1,82,36,46,Sign,You,36,,,,,,,,,,,,,,,,Refuse,You,46,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,30.2826086956522,68.5,38.2173913043478,6.08482991101278,4.43770174451818e-08,75.6736536824784,20.3698831460052,40.1953342452992,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 6.0848, df = 75.674, p-value = 4.438e-08
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 20.36988 40.19533
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            68.50000             38.21739 
+",,,,,,,,,,,,,,,,,,,,,,,,,,6.08482991101278,3.88264175378083,8.25439766561539,82,36,46,1.35402,0.0607,0.86398,1.8368,91.21351,83.08266,0.66165,0,1.34129,0.05956,0.85586,1.81953,91.00863,82.85454,0,0.56248,0.00577,0.39819,0.6782,0,0.63646,0.01266,0.4215,0.82577,11.65717,4.79267,27.98277,0,2.45592,1.56709,3.33159,0,,,,,,,,ubc,ubc,"University of British Columbia, Vancouver, Canada",Chris NH Street,ML2_Slate1_CanadaEng_Inlab_execution_illegal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,Canada,English,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,ubc,1,1,1,1,1,1,82,13,78,82,82,0,100,"Execution
+illegal 
+     82 ","SubjectPool
+Yes 
+ 82 ","Setting
+In a lab 
+      82 ","Tablet
+Computers 
+       82 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       82 ","analysis.type
+Secondary 
+       82 ","subset
+all 
+ 82 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.865398Z,13,Ross,1,,ubctab,Secondary,Ross.1,76,38,38,Sign,You,38,,,,,,,,,,,,,,,,Refuse,You,38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,29.7368421052632,72.7368421052632,43,6.88142607611497,1.86411339869108e-09,71.6521974019309,21.1217342606655,38.3519499498608,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 6.8814, df = 71.652, p-value = 1.864e-09
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 21.12173 38.35195
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            72.73684             43.00000 
+",,,,,,,,,,,,,,,,,,,,,,,,,,6.88142607611497,4.6034204109544,9.12284760256239,76,38,38,1.57871,0.06903,1.0561,2.09292,94.27984,86.78563,0.73571,0,1.56265,0.06763,1.04536,2.07164,94.09329,86.54121,0,0.62467,0.00496,0.47183,0.72756,0,0.73263,0.0137,0.51242,0.92352,17.52202,6.79066,44.52922,0,2.86346,1.91555,3.79615,0,,,,,,,,ubctab,ubc,"University of British Columbia, Vancouver, Canada",Chris NH Street,ML2_Slate1_CanadaEng_Inlab_execution_illegal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,Canada,English,1,Yes,In a lab,Tablets,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,ubctab,1,1,1,1,1,1,76,13,71,76,76,0,100,"Execution
+illegal 
+     76 ","SubjectPool
+Yes 
+ 76 ","Setting
+In a lab 
+      76 ","Tablet
+Tablets 
+     76 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       76 ","analysis.type
+Secondary 
+       76 ","subset
+all 
+ 76 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.938479Z,13,Ross,1,,ucron,Secondary,Ross.1,100,37,63,Sign,You,37,,,,,,,,,,,,,,,,Refuse,You,63,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,33.1012441012441,68.7837837837838,35.6825396825397,7.52488144901197,2.72631366051074e-11,96.8331016826954,24.3704438709346,41.8320443315536,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 7.5249, df = 96.833, p-value = 2.726e-11
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 24.37044 41.83204
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            68.78378             35.68254 
+",,,,,,,,,,,,,,,,,,,,,,,,,,7.52488144901197,5.28217799313114,9.73713527016687,100,37,63,1.55858,0.05505,1.09406,2.01679,94.04518,86.47868,0.72957,0,1.54662,0.0542,1.08567,2.00131,93.90225,86.29403,0,0.60515,0.00406,0.47076,0.70124,0,0.70123,0.01031,0.51104,0.86973,16.89382,7.27475,38.78553,0,2.82695,1.98441,3.65805,0,,,,,,,,ucron,ucron,"Universidad de Costa Rica, Costa Rica","Vanessa Smith-Castro, Rolando Pérez, David Torres",ML2_Slate1_Spanish_execution_illegal__Costa_Rica_r.csv,DO.BR.FL_6,DO.BR.FL_7,Costa Rica,Spanish,0,No,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,ucron,1,1,1,1,1,1,100,13,94,100,100,0,0,"Execution
+illegal 
+    100 ","SubjectPool
+ No 
+100 ","Setting
+Online (at home) 
+             100 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                            100 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      100 ","analysis.type
+Secondary 
+      100 ","subset
+all 
+100 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:11.993932Z,13,Ross,1,,udd,Secondary,Ross.1,95,48,47,Sign,You,48,,,,,,,,,,,,,,,,Refuse,You,47,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,27.0008865248227,65.9583333333333,38.9574468085106,5.68027199131207,1.63314829759915e-07,89.9793349637819,17.5572997109397,36.4444733387057,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.6803, df = 89.979, p-value = 1.633e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 17.55730 36.44447
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            65.95833             38.95745 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.68027199131207,3.5388186947752,7.79476611545915,95,48,47,1.16563,0.04926,0.72619,1.59954,87.81183,79.50945,0.59019,0,1.15621,0.04847,0.72032,1.58661,87.62016,79.31961,0,0.50752,0.00586,0.3445,0.62861,0,0.55938,0.01087,0.35919,0.73912,8.28314,3.73282,18.19681,0,2.11422,1.31716,2.90125,0,,,,,,,,udd,udd,"Concepción, Chile","David Sirlopú, Francisco Ceric",ML2_Slate1_Spanish_execution_illegal__Chile_r.csv,DO.BR.FL_5,DO.BR.FL_6,Chile,Spanish,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,udd,1,1,1,1,1,1,95,13,92,95,95,0,100,"Execution
+illegal 
+     95 ","SubjectPool
+Yes 
+ 95 ","Setting
+In a lab 
+      95 ","Tablet
+Computers 
+       95 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       95 ","analysis.type
+Secondary 
+       95 ","subset
+all 
+ 95 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.041373Z,13,Ross,1,,ufl,Secondary,Ross.1,116,84,32,Sign,You,84,,,,,,,,,,,,,,,,Refuse,You,32,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,21.6666666666667,72.9166666666667,51.25,5.22453808468311,4.09886322544736e-06,46.1138029732278,13.3195490873163,30.0137842460171,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.2245, df = 46.114, p-value = 4.099e-06
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 13.31955 30.01378
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            72.91667             51.25000 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.22453808468311,2.97265150134392,7.43227528059564,116,84,32,1.08533,0.04823,0.61753,1.54396,86.11125,77.85915,0.55718,0,1.07818,0.0476,0.61346,1.53378,85.95222,77.70849,0,0.43952,0.00566,0.26821,0.57131,0,0.47164,0.00885,0.27494,0.64947,7.16045,3.06509,16.45179,0,1.96857,1.12008,2.80043,0,,,,,,,,ufl,ufl,"University of Florida, Florida",Richard A. Klein,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY__pencilpaper_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"Yes, participants completed the Critcher task on pencil and paper",legal,Slate1,ufl,1,1,1,1,1,1,116,13,109,116,116,0,100,"Execution
+legal 
+  116 ","SubjectPool
+Yes 
+116 ","Setting
+In a lab 
+     116 ","Tablet
+Computers 
+      116 ","Pencil
+Yes, participants completed the Critcher task on pencil and paper 
+                                                              116 ","analysis.type
+Secondary 
+      116 ","subset
+all 
+116 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.089439Z,13,Ross,1,,uiuc,Secondary,Ross.1,204,132,72,Sign,You,132,,,,,,,,,,,,,,,,Refuse,You,72,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,25.3459595959596,69.8181818181818,44.4722222222222,8.30455659727567,8.14499309941284e-14,138.472949581801,19.3113036708727,31.3806155210465,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 8.3046, df = 138.47, p-value = 8.145e-14
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 19.31130 31.38062
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            69.81818             44.47222 
+",,,,,,,,,,,,,,,,,,,,,,,,,,8.30455659727567,6.10236624832435,10.4824638610352,204,132,72,1.21669,0.02509,0.89405,1.53577,88.8138,80.51955,0.61039,0,1.21216,0.02491,0.89072,1.53006,88.72749,80.4313,0,0.5045,0.00274,0.39453,0.59356,0,0.55532,0.00498,0.41716,0.68315,9.0868,5.06129,16.2091,0,2.20682,1.62162,2.78557,0,,,,,,,,uiuc,uiuc,"University of Illinois at Urbana-Champaign, Champaign, IL","Erika Salomon, Marie Heffernan",ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY__pencilpaper_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"Yes, participants completed the Critcher task on pencil and paper",legal,Slate1,uiuc,1,1,1,1,1,1,204,13,178,204,204,0,100,"Execution
+legal 
+  204 ","SubjectPool
+Yes 
+204 ","Setting
+In a lab 
+     204 ","Tablet
+Computers 
+      204 ","Pencil
+Yes, participants completed the Critcher task on pencil and paper 
+                                                              204 ","analysis.type
+Secondary 
+      204 ","subset
+all 
+204 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.134953Z,13,Ross,1,,umich,Secondary,Ross.1,87,62,25,Sign,You,62,,,,,,,,,,,,,,,,Refuse,You,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,25.4,72,46.6,4.36181313735062,0.000112993598660421,34.0945686966524,13.5669077390302,37.2330922609698,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.3618, df = 34.095, p-value = 0.000113
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 13.56691 37.23309
+sample estimates:
+  mean in group Sign mean in group Refuse 
+                72.0                 46.6 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.36181313735062,2.12185700167298,6.55138819004182,87,62,25,1.03338,0.06227,0.5027,1.55213,84.92874,76.75223,0.53504,8e-05,1.02424,0.06117,0.49825,1.53839,84.71383,76.55423,8e-05,0.42766,0.00776,0.22428,0.57925,7e-05,0.45703,0.0119,0.22816,0.66133,6.51656,2.4888,16.69728,8e-05,1.87435,0.9118,2.81525,8e-05,,,,,,,,umich,umich,University of Michigan,"Walter Sowden, Neil Lewis Jr., Michael P. Hall",ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,umich,1,1,1,1,1,1,87,13,83,87,87,0,100,"Execution
+legal 
+   87 ","SubjectPool
+Yes 
+ 87 ","Setting
+In a lab 
+      87 ","Tablet
+Computers 
+       87 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       87 ","analysis.type
+Secondary 
+       87 ","subset
+all 
+ 87 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.180979Z,13,Ross,1,,unam,Secondary,Ross.1,144,67,77,Sign,You,67,,,,,,,,,,,,,,,,Refuse,You,77,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,28.2483039348711,68.6119402985075,40.3636363636364,8.09356412271905,2.41734216457861e-13,141.239901857371,21.3484833245653,35.1481245451769,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 8.0936, df = 141.24, p-value = 2.417e-13
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 21.34848 35.14812
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            68.61194             40.36364 
+",,,,,,,,,,,,,,,,,,,,,,,,,,8.09356412271905,5.90679908276324,10.2568229832505,144,67,77,1.35219,0.03426,0.98685,1.71361,91.1843,83.05003,0.661,0,1.34504,0.0339,0.98163,1.70454,91.06934,82.92194,0,0.56186,0.00327,0.44412,0.65236,0,0.63554,0.00709,0.47735,0.77939,11.61857,5.98913,22.37938,0,2.4526,1.78995,3.10814,0,,,,,,,,unam,unam,National Autonomous University of Mexico in Mexico City,"Anja Eller, Miguel-Ángel Freyre",ML2_Slate1_Spanish_execution_illegal__Mexico_unam_r.csv,DO.BR.FL_5,DO.BR.FL_6,Mexico,Spanish,0,No,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,unam,1,1,1,1,1,1,144,13,128,144,144,0,0,"Execution
+illegal 
+    144 ","SubjectPool
+ No 
+144 ","Setting
+Online (at home) 
+             144 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                            144 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      144 ","analysis.type
+Secondary 
+      144 ","subset
+all 
+144 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.253147Z,13,Ross,1,,unibelgrade,Secondary,Ross.1,81,28,53,Sign,You,28,,,,,,,,,,,,,,,,Refuse,You,53,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,24.7634770889488,66.1785714285714,41.4150943396226,4.8172610355274,1.38573693209674e-05,50.1426197668948,14.439061989483,35.0878921884146,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.8173, df = 50.143, p-value = 1.386e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 14.43906 35.08789
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            66.17857             41.41509 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.8172610355274,2.62370364645815,6.97150905105421,81,28,53,1.12545,0.0624,0.61297,1.62874,86.98005,78.69295,0.57386,2e-05,1.11473,0.06122,0.60713,1.61323,86.7517,78.47199,2e-05,0.4765,0.00747,0.28311,0.61716,2e-05,0.51845,0.01282,0.29106,0.72041,7.70091,3.03985,19.18659,2e-05,2.04134,1.11181,2.95421,2e-05,,,,,,,,unibelgrade,unibelgrade,"University of Belgrade, Belgrade, Serbia","Ljiljana Lazarevic, Goran Knezevic, Boban Petrovic, Janko Medjedovic, Ivan Grahek",ML2_Slate1_Serbian_inlab_r.csv,DO.BR.FL_5,DO.BR.FL_6,Serbia,Serbian,0,No,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",,Slate1,unibelgrade,1,1,1,1,1,1,81,13,76,81,81,0,0,"Execution
+   
+81 ","SubjectPool
+No 
+81 ","Setting
+In a lab 
+      81 ","Tablet
+Computers 
+       81 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       81 ","analysis.type
+Secondary 
+       81 ","subset
+all 
+ 81 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.308478Z,13,Ross,1,,uniporto,Secondary,Ross.1,36,18,18,Sign,You,18,,,,,,,,,,,,,,,,Refuse,You,18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,23.6666666666667,78.6666666666667,55,2.82910396955832,0.0081589737012553,30.6444861009238,6.59723694802996,40.7360963853034,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 2.8291, df = 30.644, p-value = 0.008159
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  6.597237 40.736096
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            78.66667             55.00000 
+",,,,,,,,,,,,,,,,,,,,,,,,,,2.82910396955832,0.725655480513768,4.89168484790151,36,18,18,0.94303,0.12346,0.24189,1.63056,82.71684,74.75584,0.49512,0.01116,0.92208,0.11804,0.23651,1.59433,82.17561,74.28019,0.01116,0.43652,0.01872,0.1235,0.64271,0.01105,0.46792,0.0303,0.12413,0.76277,5.53159,1.55074,19.25001,0.01116,1.71048,0.43873,2.95751,0.01116,,,,,,,,uniporto,uniporto,"Universidade do Porto, Portugal",Félix Neto,ML2_Slate1_Portugal__Portuguese_execution_illegal_r.csv,DO.BR.FL_5,DO.BR.FL_6,Portugal,Portuguese,1,Yes,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,uniporto,1,1,1,1,1,1,36,12,34,36,36,0,100,"Execution
+illegal 
+     36 ","SubjectPool
+Yes 
+ 36 ","Setting
+Online (at home) 
+              36 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                             36 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       36 ","analysis.type
+Secondary 
+       36 ","subset
+all 
+ 36 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.355570Z,13,Ross,1,,uva,Secondary,Ross.1,86,61,25,Sign,You,61,,,,,,,,,,,,,,,,Refuse,You,25,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,31.9514754098361,72.3114754098361,40.36,6.42644035330238,1.93420968885463e-07,35.7601006527367,21.8656907556912,42.0372600639809,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 6.4264, df = 35.76, p-value = 1.934e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 21.86569 42.03726
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            72.31148             40.36000 
+",,,,,,,,,,,,,,,,,,,,,,,,,,6.42644035330238,3.93909245166358,8.85574664312225,86,61,25,1.52611,0.06993,0.93543,2.103,93.65083,85.97329,0.71947,0,1.51244,0.06869,0.92705,2.08417,93.4789,85.7568,0,0.57411,0.00529,0.39487,0.69486,0,0.65363,0.01205,0.41755,0.8573,15.92756,5.4558,45.35053,0,2.76805,1.69668,3.81442,0,,,,,,,,uva,uva,"University of Virginia, VA",Charles Ebersole,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY__pencilpaper_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"Yes, participants completed the Critcher task on pencil and paper",legal,Slate1,uva,1,1,1,1,1,1,86,13,81,86,86,0,100,"Execution
+legal 
+   86 ","SubjectPool
+Yes 
+ 86 ","Setting
+In a lab 
+      86 ","Tablet
+Computers 
+       86 ","Pencil
+Yes, participants completed the Critcher task on pencil and paper 
+                                                               86 ","analysis.type
+Secondary 
+       86 ","subset
+all 
+ 86 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.402178Z,13,Ross,1,,vuamsterdam,Secondary,Ross.1,95,43,52,Sign,You,43,,,,,,,,,,,,,,,,Refuse,You,52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,24.2719141323792,62.3488372093023,38.0769230769231,6.10889888954968,2.78316611180802e-08,86.5221564429451,16.374121843442,32.1697064213165,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 6.1089, df = 86.522, p-value = 2.783e-08
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 16.37412 32.16971
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            62.34884             38.07692 
+",,,,,,,,,,,,,,,,,,,,,,,,,,6.10889888954968,3.93381578654471,8.25468454735315,95,43,52,1.25918,0.05083,0.81085,1.70148,89.60179,81.33682,0.62674,0,1.249,0.05001,0.80429,1.68772,89.41676,81.14297,0,0.53513,0.00542,0.3777,0.65028,0,0.59731,0.01087,0.39738,0.77578,9.81494,4.35236,21.89241,0,2.28391,1.47072,3.08614,0,,,,,,,,vuamsterdam,vuamsterdam,"Department of Experimental and Applied Psychology, VU Amsterdam, 1081BT, Amsterdam, The Netherlands","Josh Tybur, Paul van Lange",ML2_Slate1_Dutch_execution_illegal_DEPLOY__netherlands_r.csv,DO.BR.FL_5,DO.BR.FL_6,The Netherlands,Dutch,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,vuamsterdam,1,1,1,1,1,1,95,13,90,95,95,0,100,"Execution
+illegal 
+     95 ","SubjectPool
+Yes 
+ 95 ","Setting
+In a lab 
+      95 ","Tablet
+Computers 
+       95 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       95 ","analysis.type
+Secondary 
+       95 ","subset
+all 
+ 95 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.449070Z,13,Ross,1,,vuw,Secondary,Ross.1,102,65,37,Sign,You,65,,,,,,,,,,,,,,,,Refuse,You,37,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,17.5430353430353,72.3538461538462,54.8108108108108,4.4361782907499,3.21788825184462e-05,72.1709275174538,9.66012701154497,25.4259436745257,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.4362, df = 72.171, p-value = 3.218e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  9.660127 25.425944
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            72.35385             54.81081 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.4361782907499,2.33372316039122,6.51146048760632,102,65,37,0.91359,0.0465,0.48061,1.34098,81.95339,74.08623,0.48172,5e-05,0.90672,0.04581,0.477,1.33089,81.77229,73.9287,5e-05,0.40551,0.00691,0.22727,0.54566,4e-05,0.43022,0.0101,0.2313,0.61218,5.24392,2.39104,11.3846,5e-05,1.65707,0.87173,2.43226,5e-05,,,,,,,,vuw,vuw,"Victoria University of Wellington, New Zealand",Taciano L. Milfont,ML2_Slate1_New_ZealandEng_online_execution_illegal_DEPLOY__vuw_r.csv,DO.BR.FL_6,DO.BR.FL_7,New Zealand,English,1,Yes,Online (at home),Unable to verify (completed online) but likely mostly computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,vuw,1,1,1,1,1,1,102,13,100,102,102,0,100,"Execution
+illegal 
+    102 ","SubjectPool
+Yes 
+102 ","Setting
+Online (at home) 
+             102 ","Tablet
+Unable to verify (completed online) but likely mostly computers 
+                                                            102 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      102 ","analysis.type
+Secondary 
+      102 ","subset
+all 
+102 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.502795Z,13,Ross,1,,washlee,Secondary,Ross.1,97,78,19,Sign,You,78,,,,,,,,,,,,,,,,Refuse,You,19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,23.5789473684211,77,53.421052631579,4.49212107117065,0.000208863004693497,20.6009932880363,12.6502573777222,34.5076373591199,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.4921, df = 20.601, p-value = 0.0002089
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 12.65026 34.50764
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            77.00000             53.42105 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.49212107117065,2.06801499533674,6.84244601786217,97,78,19,1.14925,0.07226,0.52907,1.75054,87.47728,79.17878,0.58358,5e-05,1.14015,0.07112,0.52488,1.73669,87.2888,78.99384,5e-05,0.41857,0.00709,0.20755,0.57457,4e-05,0.44595,0.01064,0.21061,0.65432,8.04059,2.61074,23.93008,5e-05,2.0845,0.95963,3.17514,5e-05,,,,,,,,washlee,washlee,"Department of Psychology, Washington and Lee University, Lexington, VA 24450",Julie A. Woodzicka,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY__pencilpaper_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,No,In a lab,Computers,"Yes, participants completed the Critcher task on pencil and paper",legal,Slate1,washlee,1,1,1,1,1,1,97,13,92,97,97,0,100,"Execution
+legal 
+   97 ","SubjectPool
+No 
+97 ","Setting
+In a lab 
+      97 ","Tablet
+Computers 
+       97 ","Pencil
+Yes, participants completed the Critcher task on pencil and paper 
+                                                               97 ","analysis.type
+Secondary 
+       97 ","subset
+all 
+ 97 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.575924Z,13,Ross,1,,wilfredlaur,Secondary,Ross.1,91,60,31,Sign,You,60,,,,,,,,,,,,,,,,Refuse,You,31,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,31.5387096774194,71.7,40.1612903225807,6.17892586187158,1.04870112378867e-07,51.3520231491635,21.2932291108074,41.7841902440313,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 6.1789, df = 51.352, p-value = 1.049e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 21.29323 41.78419
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            71.70000             40.16129 
+",,,,,,,,,,,,,,,,,,,,,,,,,,6.17892586187158,3.86271992332235,8.45066654454724,91,60,31,1.36671,0.05919,0.85439,1.8692,91.41423,83.30809,0.66616,0,1.35516,0.05819,0.84717,1.8534,91.23172,83.10304,0,0.5479,0.00544,0.37892,0.66722,0,0.61538,0.01136,0.39879,0.80572,11.92864,4.71004,29.67631,0,2.47894,1.5497,3.39035,0,,,,,,,,wilfredlaur,wilfredlaur,"Wilfrid Laurier University, Waterloo, Ontario, Canada","Grant Packard, Tripat Gill",ML2_Slate1_CanadaEng_Inlab_execution_illegal_DEPLOY__pencilpapercritcher_wilfredlaur_r.csv,DO.BR.FL_5,DO.BR.FL_6,Canada,English,1,Yes,In a lab,Computers,"Yes, participants completed the Critcher task on pencil and paper",illegal,Slate1,wilfredlaur,1,1,1,1,1,1,91,13,84,91,91,0,100,"Execution
+illegal 
+     91 ","SubjectPool
+Yes 
+ 91 ","Setting
+In a lab 
+      91 ","Tablet
+Computers 
+       91 ","Pencil
+Yes, participants completed the Critcher task on pencil and paper 
+                                                               91 ","analysis.type
+Secondary 
+       91 ","subset
+all 
+ 91 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.631516Z,13,Ross,1,,williampat,Secondary,Ross.1,125,78,47,Sign,You,78,,,,,,,,,,,,,,,,Refuse,You,47,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,21.9839061647572,74.2179487179487,52.2340425531915,5.40423745643052,6.36902131144321e-07,81.1532878961285,13.8902897497665,30.0775225797479,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.4042, df = 81.153, p-value = 6.369e-07
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 13.89029 30.07752
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            74.21795             52.23404 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.40423745643052,3.26152189998421,7.51853607022345,125,78,47,0.99791,0.03808,0.60225,1.38833,84.08395,75.97915,0.51958,0,0.99182,0.03762,0.59857,1.37985,83.93566,75.84485,0,0.43805,0.00527,0.28213,0.56113,0,0.46981,0.0082,0.29,0.63449,6.11055,2.98132,12.4056,0,1.81002,1.09237,2.51815,0,,,,,,,,williampat,williampat,"William Paterson University, Wayne, NJ",Elizabeth Haines,ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,williampat,1,1,1,1,1,1,125,13,114,125,125,0,100,"Execution
+legal 
+  125 ","SubjectPool
+Yes 
+125 ","Setting
+In a lab 
+     125 ","Tablet
+Computers 
+      125 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      125 ","analysis.type
+Secondary 
+      125 ","subset
+all 
+125 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.677487Z,13,Ross,1,,winchester,Secondary,Ross.1,142,77,65,Sign,You,77,,,,,,,,,,,,,,,,Refuse,You,65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,20.8689310689311,68.3766233766234,47.5076923076923,5.76729198722395,5.76472995806684e-08,127.462390526239,13.7088275572549,28.0290345806072,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 5.7673, df = 127.46, p-value = 5.765e-08
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 13.70883 28.02903
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            68.37662             47.50769 
+",,,,,,,,,,,,,,,,,,,,,,,,,,5.76729198722395,3.67355914993959,7.84090253793866,142,77,65,0.97144,0.03169,0.61877,1.32071,83.43343,75.39299,0.50786,0,0.96622,0.03136,0.61545,1.31362,83.30335,75.27668,0,0.43815,0.00463,0.29651,0.5524,0,0.46994,0.00719,0.30569,0.62182,5.82401,3.07199,10.97376,0,1.76199,1.12232,2.39551,0,,,,,,,,winchester,winchester,"University of Winchester, Winchester, Hampshire, England","Manuela Thomae, Michael Wood",ML2_Slate1_Inlab_execution_illegal_DEPLOY__UK_r.csv,DO.BR.FL_5,DO.BR.FL_6,UK,English,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,winchester,1,1,1,1,1,1,142,13,132,142,142,0,100,"Execution
+illegal 
+    142 ","SubjectPool
+Yes 
+142 ","Setting
+In a lab 
+     142 ","Tablet
+Computers 
+      142 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                      142 ","analysis.type
+Secondary 
+      142 ","subset
+all 
+142 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.722780Z,13,Ross,1,,wpi,Secondary,Ross.1,86,56,30,Sign,You,56,,,,,,,,,,,,,,,,Refuse,You,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,16.0809523809524,71.7142857142857,55.6333333333333,3.10862933470507,0.00328321787671836,44.2005508277286,5.65678349319259,26.5051212687122,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 3.1086, df = 44.201, p-value = 0.003283
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  5.656783 26.505121
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            71.71429             55.63333 
+",,,,,,,,,,,,,,,,,,,,,,,,,,3.10862933470507,1.0290195317124,5.15647922446579,86,56,30,0.70334,0.05407,0.23282,1.16667,75.90772,69.05234,0.38105,0.0033,0.69704,0.0531,0.23073,1.15622,75.71107,68.89516,0.0033,0.32121,0.00946,0.11157,0.49034,0.00321,0.33299,0.01205,0.11204,0.53651,3.58125,1.52545,8.29875,0.0033,1.27571,0.42229,2.1161,0.0033,,,,,,,,wpi,wpi,"Social Science and Policy Studies Department, Worcester Polytechnic Institute, Worcester, MA 01609","Jeanine L. M. Skorinko, Melissa-Sue John",ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY__pencilpaper_r.csv,DO.BR.FL_5,DO.BR.FL_6,USA,English,1,Yes,In a lab,Computers,"Yes, participants completed the Critcher task on pencil and paper",legal,Slate1,wpi,1,1,1,1,1,1,86,13,80,86,86,0,100,"Execution
+legal 
+   86 ","SubjectPool
+Yes 
+ 86 ","Setting
+In a lab 
+      86 ","Tablet
+Computers 
+       86 ","Pencil
+Yes, participants completed the Critcher task on pencil and paper 
+                                                               86 ","analysis.type
+Secondary 
+       86 ","subset
+all 
+ 86 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.768004Z,13,Ross,1,,wroclaw,Secondary,Ross.1,97,51,46,Sign,You,51,,,,,,,,,,,,,,,,Refuse,You,46,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,18.265558397272,62.156862745098,43.8913043478261,4.48976886034699,2.04992175831771e-05,92.6472667010352,10.1863899197869,26.344726874757,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 4.4898, df = 92.647, p-value = 2.05e-05
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 10.18639 26.34473
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            62.15686             43.89130 
+",,,,,,,,,,,,,,,,,,,,,,,,,,4.48976886034699,2.41525138947473,6.54234766272533,97,51,46,0.91295,0.04564,0.49112,1.33032,81.93649,74.07151,0.48143,5e-05,0.90572,0.04492,0.48723,1.31979,81.74583,73.90572,5e-05,0.41839,0.00709,0.24052,0.55732,4e-05,0.44573,0.01064,0.24533,0.62894,5.23781,2.43704,11.16663,5e-05,1.6559,0.89079,2.41293,5e-05,,,,,,,,wroclaw,wroclaw,"University of Social Sciences and Humanities, Wroclaw, Poland","Katarzyna Cantarero, Agata Sobków, Jakub Traczyk",ML2_Slate1_Polish_execution_illegal__Wroclaw_r.csv,DO.BR.FL_5,DO.BR.FL_6,Poland,Polish,1,Yes,In a lab,Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",illegal,Slate1,wroclaw,1,1,1,1,1,1,97,13,92,97,97,0,100,"Execution
+illegal 
+     97 ","SubjectPool
+Yes 
+ 97 ","Setting
+In a lab 
+      97 ","Tablet
+Computers 
+       97 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       97 ","analysis.type
+Secondary 
+       97 ","subset
+all 
+ 97 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2019-01-15T12:38:12.813561Z,13,Ross,1,,zhejiang,Secondary,Ross.1,84,40,44,Sign,You,40,,,,,,,,,,,,,,,,Refuse,You,44,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,t,26.2410409090909,65.08195,38.8409090909091,6.22748212816884,1.93014276383084e-08,81.9226056176458,17.8584350773187,34.6236467408632,Welch Two Sample t-test,two.sided,t,FALSE,"
+	Welch Two Sample t-test
+
+data:  Peers by You
+t = 6.2275, df = 81.923, p-value = 1.93e-08
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 17.85844 34.62365
+sample estimates:
+  mean in group Sign mean in group Refuse 
+            65.08195             38.84091 
+",,,,,,,,,,,,,,,,,,,,,,,,,,6.22748212816884,4.03299905862532,8.39093279612561,84,40,44,1.36049,0.05874,0.88107,1.83313,91.31628,83.19784,0.66396,0,1.34801,0.05767,0.87299,1.81631,91.11724,82.97523,0,0.56665,0.00555,0.40684,0.67968,0,0.64257,0.01235,0.43182,0.82853,11.7948,4.94357,27.79711,0,2.46766,1.59809,3.32493,0,,,,,,,,zhejiang,zhejiang,"Shanghai International Studies University, SISU Intercultural Institute, Shanghai, China",Alex English,ML2_Slate1_Chinese_Mainland_execution_legal_DEPLOY_r.csv,DO.BR.FL_5,DO.BR.FL_6,China,Chinese (simplified),0,Yes,Other (please indicate),Computers,"No, the whole study was on the computer (except maybe consent/debriefing)",legal,Slate1,zhejiang,1,1,1,1,1,1,84,13,79,84,84,0,0,"Execution
+legal 
+   84 ","SubjectPool
+Yes 
+ 84 ","Setting
+Other (please indicate) 
+                     84 ","Tablet
+Computers 
+       84 ","Pencil
+No, the whole study was on the computer (except maybe consent/debriefing) 
+                                                                       84 ","analysis.type
+Secondary 
+       84 ","subset
+all 
+ 84 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,

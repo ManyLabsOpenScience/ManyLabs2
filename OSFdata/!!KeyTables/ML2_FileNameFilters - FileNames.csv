@@ -1,0 +1,86 @@
+File.name,Slate,Language,Change.Source,Change.Source.ID,Explanation.Change.Source
+ML2_Slate1_Brazil__Portuguese_execution_illegal_r.csv,1,Portuguese,,,
+ML2_Slate1_CanadaEng_Inlab_execution_illegal_DEPLOY__pencilpapercritcher_wilfredlaur_r.csv,1,English,,,
+ML2_Slate1_CanadaEng_Inlab_execution_illegal_DEPLOY_r.csv,1,English,,,
+ML2_Slate1_Chinese_Inlab_execution_illegal_DEPLOY__Hong_Kong_r.csv,1,Chinese (traditional),,,
+ML2_Slate1_Chinese_Inlab_execution_illegal_DEPLOY__Hong_Kong_r__For_Andrew_Tang.csv,1,Chinese (traditional),,,
+ML2_Slate1_Chinese_Mainland_execution_legal_DEPLOY_r.csv,1,Chinese (simplified),,,
+ML2_Slate1_Chinese_Mainland_execution_legal_DEPLOY_r__Revised_by_Huajian.csv,1,Chinese (simplified),,,
+ML2_Slate1_Czech_execution_illegal_r.csv,1,Czech,,,
+ML2_Slate1_Dutch_execution_illegal_DEPLOY__belgium_r.csv,1,Dutch,,,
+ML2_Slate1_Dutch_execution_illegal_DEPLOY__netherlands_r.csv,1,Dutch,,,
+ML2_Slate1_Dutch_execution_illegal_DEPLOY__netherlands_tilburgcomm_r.csv,1,Dutch,,,
+ML2_Slate1_EngSpain_Inlab_execution_illegal__navarra_r.csv,1,English,,,
+ML2_Slate1_EngSpain_Inlab_execution_illegal_r.csv,1,English,,,
+ML2_Slate1_French_Inlab_execution_illegal__swiss_r.csv,1,French,,,
+ML2_Slate1_French_Inlab_execution_illegal_pencilpaper_r.csv,1,French,,,
+ML2_Slate1_Hungarian_Inlab_execution_illegal_DEPLOY_r.csv,1,Hungarian,"ifelse(ML2.S1$meta_1_TEXT[ID]=='MSIE',ML2.S1$source[ID&ML2.S1$meta_1_TEXT=='MSIE']<-'eltetab',ML2.S1$source[ID&ML2.S1$meta_1_TEXT=='Chrome']<-'elte')",(ML2.S1$.id=='ML2_Slate1_Hungarian_Inlab_execution_illegal_DEPLOY_r.csv'),"# Explanation: Site ran both tablet and PC sessions. Usually, these are identified by using different links for each device, but in this case the source identifier was sometimes omitted. Instead, we determine whether the participant used a tablet or PC based on the browser used (all tablet sessions were run with Microsoft Internet Explorer; all PC sessions were run with Google Chrome)."
+ML2_Slate1_IndiaEng_execution_legal_MTurk_r.csv,1,English,ML2.S1$source[ID] <- 'mturk_india',(ML2.S1$.id=='ML2_Slate1_IndiaEng_execution_legal_MTurk_r.csv'),"# Explanation: These data for Slate 1 and Slate 2 were collected on MTurk for Indian participants using a unique link (e.g., no other sites used it). The link was distributed without a built in source identifier. "
+ML2_Slate1_Inlab_execution_illegal_DEPLOY__UK_r.csv,1,English,,,
+ML2_Slate1_Japanese_Inlab_r.csv,1,Japanese,,,
+ML2_Slate1_New_ZealandEng_online_execution_illegal_DEPLOY__vuw_r.csv,1,English,,,
+ML2_Slate1_Polish_execution_illegal__Wroclaw_r.csv,1,Polish,,,
+ML2_Slate1_Polish_Inlab_execution_illegal_r.csv,1,Polish,,,
+ML2_Slate1_Portugal__Portuguese_execution_illegal_r.csv,1,Portuguese,,,
+ML2_Slate1_Serbian_inlab_r.csv,1,Serbian,,,
+ML2_Slate1_South_Africa_Inlab_execution_illegal_DEPLOY_r.csv,1,English,,,
+ML2_Slate1_Spanish_execution_illegal__Chile_r.csv,1,Spanish,,,
+ML2_Slate1_Spanish_execution_illegal__Costa_Rica_r.csv,1,Spanish,,,
+ML2_Slate1_Spanish_execution_illegal__Mexico_unam_r.csv,1,Spanish,,,
+ML2_Slate1_Spanish_execution_illegal__Uruguay_r.csv,1,Spanish,,,
+ML2_Slate1_Swedish_execution_illegal_r.csv,1,Swedish,,,
+ML2_Slate1_Taiwan_Inlab_execution_legal_DEPLOY_r.csv,1,Chinese (traditional),,,
+ML2_Slate1_Turkish_execution_illegal_Bilgi_r.csv,1,Turkish,,,
+ML2_Slate1_Turkish_execution_illegal_Koc_r.csv,1,Turkish,,,
+ML2_Slate1_UAEEng_Inlab_execution_legal_r.csv,1,English,"ifelse(ML2.S1$meta_1_TEXT[ID]=='MSIE',ML2.S1$source[ID&ML2.S1$meta_1_TEXT=='MSIE']<-'occidtab',ML2.S1$source[ID&ML2.S1$meta_1_TEXT=='Chrome']<-'occid')",(ML2.S1$.id=='ML2_Slate1_UAEEng_Inlab_execution_legal_r.csv')&(ML2.S1$source=='occid'|ML2.S1$source=='occidtab'),"# Explanation: Site ran both tablet and PC sessions. Usually, these are identified by using different links for each device, but in this case the links were mixed up. Instead, we determine whether the participant used a tablet or PC based on the browser used (all tablet sessions were run with Microsoft Internet Explorer; all PC sessions were run with Google Chrome)."
+ML2_Slate1_USEng_execution_legal_DEPLOY__hawaiion_r.csv,1,English,,,
+ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY__pencilpaper_r.csv,1,English,,,
+ML2_Slate1_USEng_Inlab_execution_legal_DEPLOY_r.csv,1,English,,,
+ML2_Slate1_USEng_mTurk_JC_r.csv,1,English,ML2.S1$source[ID] <- 'mturk',(ML2.S1$.id=='ML2_Slate1_USEng_mTurk_JC_r.csv'),"# Explanation: These data for Slate 1 and Slate 2 were collected on MTurk for US participants using a unique link (e.g., no other sites used it). The link was distributed without a built in source identifier. "
+ML2_Slate2_AustraliaEng_online_DEPLOY__unsw_r.csv,2,English,,,
+ML2_Slate2_CanadaEng_online_DEPLOY__carleton_r.csv,2,English,,,
+ML2_Slate2_CzechCzech_Republic_recoded_values_r.csv,2,Czech,,,
+ML2_Slate2_Dutch_Inlab_DEPLOY__netherlands_r.csv,2,Dutch,,,
+ML2_Slate2_EngUAE_r.csv,2,English,,,
+ML2_Slate2_French_Inlab_DEPLOY__Belgium_r.csv,2,French,,,
+ML2_Slate2_French_Inlab_DEPLOY__france_pascal_r.csv,2,French,,,
+ML2_Slate2_IndiaEng_Inlab_DEPLOY__Amity_r.csv,2,English,,,
+ML2_Slate2_IndiaEng_Inlab_DEPLOY__isb_r.csv,2,English,,,
+ML2_Slate2_IndiaEng_MTurk_r.csv,2,English,ML2.S2$source[ID] <- 'mturk_india',(ML2.S2$.id=='ML2_Slate2_IndiaEng_MTurk_r.csv'),"# Explanation: These data for Slate 1 and Slate 2 were collected on MTurk for Indian participants using a unique link (e.g., no other sites used it). The link was distributed without a built in source identifier. "
+ML2_Slate2_Italian_r.csv,2,Italian,,,
+ML2_Slate2_MalaysiaEng_Inlab_r.csv,2,English,,,
+ML2_Slate2_NetherlandsEng_Inlab_r.csv,2,English,,,
+ML2_Slate2_New_ZealandEng_online_DEPLOY__vuw_r.csv,2,English,,,
+ML2_Slate2_NigeriaEng_Inlab_r.csv,2,English,,,
+ML2_Slate2_Polish_r.csv,2,Polish,,,
+ML2_Slate2_Serbian_inlab_r.csv,2,Serbian,,,
+ML2_Slate2_Simplified_Chinese_Mainland_r_manually_recode_rosss21.csv,2,Chinese (simplified),ML2.S2$source[ID] <- 'cas',"(ML2.S2$.id == 'ML2_Slate2_Simplified_Chinese_Mainland_r_manually_recode_rosss21.csv') & (strptime(ML2.S2$EndDate, '%Y-%m-%d') > strptime('2014-12-08', '%Y-%m-%d')) & (strptime(ML2.S2$EndDate, '%Y-%m-%d') < strptime('2014-12-14', '%Y-%m-%d'))","# Explanation: The source identifier was omitted from the link for slate 2 from the “cas” site, but they were the only team running that survey during this time period so we can be sure all data between those dates comes from that site."
+ML2_Slate2_South_AfricaEng_Inlab_DEPLOY_r.csv,2,English,,,
+ML2_Slate2_SpanishChile_Inlab_r_manually_recode_rosss21.csv,2,Spanish,,,
+ML2_Slate2_SpanishColombia_r_manually_recode_rosss21.csv,2,Spanish,,,
+ML2_Slate2_SpanishCosta_Rica_r_manually_recode_rosss21.csv,2,Spanish,,,
+ML2_Slate2_SpanishSpain_UNED_r_manually_recode_rosss21.csv,2,Spanish,,,
+ML2_Slate2_TanzaniaEng_Inlab_DEPLOY_r.csv,2,English,,,
+ML2_Slate2_Traditional_ChineseHong_Kong_r.csv,2,Chinese (traditional),,,
+ML2_Slate2_Turkish_online_DEPLOY__metu_rmanuallyrenamerosss21_text.csv,2,Turkish,ML2.S2$source[ID] <- 'metu',(ML2.S2$.id=='ML2_Slate2_Turkish_online_DEPLOY__metu_rmanuallyrenamerosss21_text.csv'),#Explanation: Some sessions did not record the source variable for the “metu” site. We can just re-assign the source variable given that only one site used this study link.
+ML2_Slate2_UKEng_Inlab_DEPLOY__salford_r.csv,2,English,,,
+ML2_Slate2_UKEng_Inlab_DEPLOY_r.csv,2,English,,,
+ML2_Slate2_USEng_DEPLOY__hawaiion_r.csv,2,English,,,
+ML2_Slate2_USEng_Inlab_DEPLOY__brooklyn_cuny_r.csv,2,English,,,
+ML2_Slate2_USEng_Inlab_DEPLOY__georgefox_r.csv,2,English,,,
+ML2_Slate2_USEng_Inlab_DEPLOY__Hearing_r.csv,2,English,,,
+ML2_Slate2_USEng_Inlab_DEPLOY__jmu_r.csv,2,English,,,
+ML2_Slate2_USEng_Inlab_DEPLOY__queensland2_r.csv,2,English,,,
+ML2_Slate2_USEng_Inlab_DEPLOY_nunziato_r.csv,2,English,ML2.S2$source[ID] <- 'moralsense',(ML2.S2$.id=='ML2_Slate2_USEng_Inlab_DEPLOY_nunziato_r.csv'),"# Explanation: The source identifier was omitted from the link, but this was a custom link for the Moral Sense website so we know all data comes from that sample."
+ML2_Slate2_USEng_Inlab_DEPLOY_r.csv,2,English,,,
+ML2_Slate2_USEng_mTurk_JC_r.csv,2,English,ML2.S2$source[ID] <- 'mturk',(ML2.S2$.id=='ML2_Slate2_USEng_mTurk_JC_r.csv'),"# Explanation: These data for Slate 1 and Slate 2 were collected on MTurk for US participants using a unique link (e.g., no other sites used it). The link was distributed without a built in source identifier. "
+Slate_1_Deutsch__Austria_Revised_Version_2__Kopieren_teamb_r_manuallyrecode_vanp21_text.csv,1,German,ML2.S1$source[ID] <- 'grazvienna',(ML2.S1$.id=='Slate_1_Deutsch__Austria_Revised_Version_2__Kopieren_teamb_r_manuallyrecode_vanp21_text.csv'),"# Explanation: The source identifier was omitted from the links to these surveys, but only one site used these survey versions so we can be certain all data in them comes from there."
+Slate_1_Deutsch__Austria_Revised_Version_2__Kopieren_teamc_r_manuallyrecode_vanp21_text.csv,1,German,ML2.S1$source[ID] <- 'grazvienna',(ML2.S1$.id=='Slate_1_Deutsch__Austria_Revised_Version_2__Kopieren_teamc_r_manuallyrecode_vanp21_text.csv'),"# Explanation: The source identifier was omitted from the links to these surveys, but only one site used these survey versions so we can be certain all data in them comes from there."
+Slate_1_Deutsch__Austria_Revised_Version_2_fady_r_manuallyrecode_vanp21_text.csv,1,German,ML2.S1$source[ID] <- 'grazvienna',(ML2.S1$.id=='Slate_1_Deutsch__Austria_Revised_Version_2_fady_r_manuallyrecode_vanp21_text.csv'),"# Explanation: The source identifier was omitted from the links to these surveys, but only one site used these survey versions so we can be certain all data in them comes from there."
+Slate_1_Deutsch__Austria_Revised_Version_2_r_manuallyrecode_vanp21_text.csv,1,German,ML2.S1$source[ID] <- 'grazvienna',(ML2.S1$.id=='Slate_1_Deutsch__Austria_Revised_Version_2_r_manuallyrecode_vanp21_text.csv'),"# Explanation: The source identifier was omitted from the links to these surveys, but only one site used these survey versions so we can be certain all data in them comes from there."
+Slate_1_Deutsch_germany_Revised_Version_2__potsdam_r_manuallyrecode_vanp21_text.csv,1,German,,,
+Slate_2_Deutsch__Austria_Revised_Version_2__Kopieren_practikum_r.csv,2,German,ML2.S2$source[ID] <- 'grazvienna',(ML2.S2$.id=='Slate_2_Deutsch__Austria_Revised_Version_2__Kopieren_practikum_r.csv'),"# Explanation: The source identifier was omitted from the links to these surveys, but only one site used these survey versions so we can be certain all data in them comes from there."
+Slate_2_Deutsch__Austria_Revised_Version_2__Kopieren_teame_r.csv,2,German,ML2.S2$source[ID] <- 'grazvienna',(ML2.S2$.id=='Slate_2_Deutsch__Austria_Revised_Version_2__Kopieren_teame_r.csv'),"# Explanation: The source identifier was omitted from the links to these surveys, but only one site used these survey versions so we can be certain all data in them comes from there."
+Slate_2_Deutsch__Austria_Revised_Version_2_r.csv,2,German,ML2.S2$source[ID] <- 'grazvienna',(ML2.S2$.id=='Slate_2_Deutsch__Austria_Revised_Version_2_r.csv'),"# Explanation: The source identifier was omitted from the links to these surveys, but only one site used these survey versions so we can be certain all data in them comes from there."
+Slate_2_Deutsch__germany__Revised_Version_2__munichon_r.csv,2,German,,,
+Slate_2_Deutsch__germany__Revised_Version_2_r.csv,2,German,,,

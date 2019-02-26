@@ -16,6 +16,7 @@ clean.Source <- function(source.raw, SourceTable){
 
 # func: Get additional changes, variables, etc.
 get.fieldAdd <- function(data,stable){
+  
   data$Source.Global    <- NA
   data$Source.Primary   <- NA
   data$Source.Secondary <- NA
@@ -46,8 +47,10 @@ get.fieldAdd <- function(data,stable){
       data$Setting[ID]      <- stable$Setting[[s]]
       data$Tablet[ID]       <- stable$Tablet[[s]]
       data$Pencil[ID]       <- stable$Pencil[[s]]
-      data[ID, "StudyOrder"]   <- data[ID, stable$StudyOrder[[s]]]
-      data[ID, "IDiffOrder"]   <- data[ID, stable$IDiffOrder[[s]]]
+      # data[ID, "StudyOrder"]   <- data[ID, stable$StudyOrder[[s]]]
+      # data[ID, "IDiffOrder"]   <- data[ID, stable$IDiffOrder[[s]]]
+      data[ID,"StudyOrder"]   <- data[ID, as.character(stable$StudyOrder[[s]])]
+      data[ID,"IDiffOrder"]   <- data[ID, as.character(stable$IDiffOrder[[s]])]
     }
   }
   return(as.data.frame(data))
@@ -1236,7 +1239,7 @@ get.analyses <- function(studies       = NA,
 #' }
 #' @export
 #'
-get.GoogleSheet <- function(url=NULL,data=c('ML1data','ML2masteRkey','ML2data')[2],dfCln=FALSE,Sep = "."){
+get.GoogleSheet <- function(url=NULL,data=c('ML1data','ML2masteRkey','ML2data')[2],dfCln=FALSE,Sep = ".", skip = 0){
   if(is.null(url)){
     switch(data,
            ML1data        = url <- 'https://docs.google.com/spreadsheets/d/19ay71M8jiqIZhSj3HR0vqaJUwAae1QHzBybjBu5yBg8/export?format=csv',
@@ -1246,7 +1249,7 @@ get.GoogleSheet <- function(url=NULL,data=c('ML1data','ML2masteRkey','ML2data')[
   # GET(url) will only get 100 rows, thanks to Sacha Epskamp for this "complete scrape" code.
   tmp  <- tempfile()
   info <- httr::GET(url, httr::write_disk(tmp, overwrite = TRUE))
-  df   <- dplyr::tbl_df(read.csv(tmp,  stringsAsFactors = FALSE, header = TRUE)) #import(tmp, format = "csv", stringsAsFactors = FALSE, header = TRUE))
+  df   <- dplyr::tbl_df(read.csv(tmp,  stringsAsFactors = FALSE, header = TRUE, skip = skip)) #import(tmp, format = "csv", stringsAsFactors = FALSE, header = TRUE))
   if(dfCln==TRUE){
     df   <- df.Clean(df)
   } else {
@@ -3647,7 +3650,7 @@ init <- function(){
   #source(paste0(srcDir,'fRedsRutils.R'))
 
   # Function inIT will load and -if necessary- install packages passed in a list (unIT will do the reverse operation).
-  in.IT(c("MBESS","reshape2","plyr","tidyverse","metafor","RCurl","openxlsx","broom","httr","compute.es","downloader","car", "lme4", "lmerTest","exact2x2","ggplot2","gplots","gridExtra","lattice","latticeExtra","rio","scales","lubridate"))
+  in.IT(c("MBESS","reshape2","plyr","tidyverse","metafor","RCurl","httr","openxlsx","broom","httr","compute.es","downloader","car", "lme4", "lmerTest","exact2x2","ggplot2","gplots","gridExtra","lattice","latticeExtra","rio","scales","lubridate"))
 
 }
 

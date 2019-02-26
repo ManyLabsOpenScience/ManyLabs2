@@ -37,5 +37,6 @@ vignettes/*.pdf
 *.Rproj
 .DS_Store
 .Rproj.user
+*.xlsx
 
 Data/

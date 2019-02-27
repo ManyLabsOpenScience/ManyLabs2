@@ -39,4 +39,4 @@ vignettes/*.pdf
 .Rproj.user
 *.xlsx
 
-Data/
+DataPriv/

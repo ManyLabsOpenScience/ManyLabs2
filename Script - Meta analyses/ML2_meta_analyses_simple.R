@@ -22,7 +22,7 @@ devtools::source_url("https://raw.githubusercontent.com/FredHasselman/invctr/mas
 
 
 # Provide root for OSFdata folder
-dir.in <- "~/Dropbox/Manylabs2"
+dir.in <- "~/Documents/GitHub/ManyLabs2/"
 # Output directory
 dir.out <- getwd()
 

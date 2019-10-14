@@ -48,9 +48,9 @@ library(rio)
 library(tidyverse)
 
 # Package to get files from OSF
-if(!"osfr"%in%installed.packages(fields="Package")){devtools::install_github('CenterForOpenScience/osfr')}
-library(osfr)
-osfr::login()
+# if(!"osfr"%in%installed.packages(fields="Package")){devtools::install_github('CenterForOpenScience/osfr')}
+# library(osfr)
+# osfr::login()
 
 # manylabRs sourceable function library
 devtools::source_url("https://raw.githubusercontent.com/ManyLabsOpenScience/manylabRs/master/R/manylabRs_SOURCE.R")
@@ -74,7 +74,7 @@ onlineTables           <- TRUE
 staticData             <- TRUE
 saveAll                <- TRUE
 overWrite              <- TRUE
-OSFdata.root           <- file.path('~','OSFdata')
+OSFdata.root           <- file.path('~/Documents/GitHub/ManyLabs2','OSFdata')
 analysis.root          <- file.path(OSFdata.root,study.description,analysis.name,'By Site')
 outdir                 <- list(Data = file.path(analysis.root,'Data'), Results = file.path(analysis.root,'Results'))
 
@@ -142,7 +142,7 @@ ML2.id <- get.chain(ML2.in)
 
 ML2.df <- ML2.df  %>% dplyr::select(1,6,165,172,804,903,904,905,906,907,908,909,910,911,912,913,914,937,938,939) %>% dplyr::filter(is.character(source))
 
-
+#ML2.df$source
 
 # Decide which analyses to run on which groups
 toRun  <- decide.analysis(ML2.key, analysis.unique.id, analysis.type, doAll = TRUE)

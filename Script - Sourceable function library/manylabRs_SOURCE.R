@@ -1974,8 +1974,8 @@ generateOutput <-  function(describe = describe,
   ESCI <- list(value = NULL,
                warning = "init")
 
-  test  = describe$test
-  descr = describe$descr.raw
+  test  <- describe$test
+  descr <- describe$descr.raw
 
   if(grepl("OR",test$estype, fixed = TRUE)){
     Nv <- c(descr$n[1],descr$n[3])
@@ -2000,7 +2000,8 @@ if(is.null(test$method)){
                               n1        = Nv[1],
                               n2        = Nv[2],
                               esType    = test$estype,
-                              var.lor   = var.lor,CIcalc = TRUE,
+                              var.lor   = var.lor,
+                              CIcalc    = TRUE,
                               CL        = ifelse(is.null(stat.params$conf.level),
                                                  .95,
                                                  stat.params$conf.level),
@@ -2843,7 +2844,8 @@ multi.PLOT <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
 any2any <- function(testInfo,
                     df1 = NULL,
                     df2 = NULL,
-                    N   = NULL, n1 = NULL, n2 = NULL,
+                    N   = NULL, 
+                    n1 = NULL, n2 = NULL,
                     esType  = NA,
                     var.lor = NA,
                     CIcalc  = TRUE,

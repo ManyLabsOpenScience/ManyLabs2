@@ -1,7 +1,5 @@
 ## META ANALYSES - MANYLABS 2 -
 #
-# Just load the data and plot the Figure!
-#
 # corresponding coder: Fred Hasselman (https://osf.io/ujgs6/)
 
 # SETUP ----
@@ -12,17 +10,17 @@ library(plyr)
 library(tidyverse)
 require(lattice)
 library(gplots)
+library(invctr)
 
 # NOTE: Don't run init() if you do not want to load, and possiblt install packages we need to run this script!!
 library(devtools)
 devtools::source_url("https://raw.githubusercontent.com/ManyLabsOpenScience/manylabRs/master/R/manylabRs_SOURCE.R")
 init()
 
-devtools::source_url("https://raw.githubusercontent.com/FredHasselman/invctr/master/R/invictor.R")
 
 
 # Provide root for OSFdata folder
-dir.in <- "~/Documents/GitHub/ManyLabs2/"
+#dir.in <- "~/Documents/GitHub/ManyLabs2/"
 # Output directory
 dir.out <- getwd()
 

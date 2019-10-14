@@ -64,9 +64,9 @@ init()
 study.description      <- 'Tempting Fate (Risen & Gilovich, 2008)'
 analysis.unique.id     <- 50
 analysis.name          <- 'Risen.1'
-analysis.type          <- 3
-analysis.type.name     <- 'study_secondary_include'
-analysis.type.groups   <- 'Source.Secondary'
+analysis.type          <- 2
+analysis.type.name     <- 'study_primary_include'
+analysis.type.groups   <- 'Source.Primary'
 Nmin.raw               <- 30
 Nmin.cond              <- 15
 subset                 <- 'sites'
@@ -74,7 +74,7 @@ onlineTables           <- TRUE
 staticData             <- TRUE
 saveAll                <- TRUE
 overWrite              <- TRUE
-OSFdata.root           <- file.path('~','OSFdata')
+OSFdata.root           <- "~/Documents/GitHub/ManyLabs2/OSFdata"
 analysis.root          <- file.path(OSFdata.root,study.description,analysis.name,'By Site')
 outdir                 <- list(Data = file.path(analysis.root,'Data'), Results = file.path(analysis.root,'Results'))
 

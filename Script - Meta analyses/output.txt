@@ -1,0 +1,236 @@
+
+R version 3.4.1 (2017-06-30) -- "Single Candle"
+Copyright (C) 2017 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ########################################################
+> ##### MANY LABS 2: META-ANALYSES INBAR AND SCHWARZ #####
+> ########################################################
+> 
+> rm(list=ls())
+> 
+> ################
+> 
+> ################
+> 
+> install.packages(c("stringr", "metafor"))
+--- Please select a CRAN mirror for use in this session ---
+trying URL 'https://pbil.univ-lyon1.fr/CRAN/bin/windows/contrib/3.4/stringr_1.2.0.zip'
+Content type 'application/zip' length 148992 bytes (145 KB)
+downloaded 145 KB
+
+trying URL 'https://pbil.univ-lyon1.fr/CRAN/bin/windows/contrib/3.4/metafor_2.0-0.zip'
+Content type 'application/zip' length 2519700 bytes (2.4 MB)
+downloaded 2.4 MB
+
+package ‘stringr’ successfully unpacked and MD5 sums checked
+package ‘metafor’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+        C:\Users\S787802\AppData\Local\Temp\RtmpQJRfFM\downloaded_packages
+> library(stringr)
+> library(metafor)
+Loading required package: Matrix
+Loading 'metafor' package (version 2.0-0). For an overview 
+and introduction to the package please type: help(metafor).
+> 
+> setwd("C:/Dropbox/Werk/Onderzoek/ML2") # Set working directory to location where data is stored
+> 
+> ##### Inbar #####
+> dat_Inbar <- read.csv(file = "Inbar.1a.study.primary.include.csv") # Load data
+> 
+> ### Extract Cohen's q
+> q <- as.numeric(str_extract_all(as.character(dat_Inbar$test.ConsoleOutput), "(?<=0\\) \n\\s{0,1})[-0-9.]+"))
+> 
+> ### Compute sampling variance Cohen's q
+> vi <- 1/(dat_Inbar$stat.n1-3)+1/(dat_Inbar$stat.n2-3)
+> 
+> ### Recode source.Setting variable (Merge "In a lab" and "In a classroom" and discard 
+> # "Other (please indicate)")
+> levels(dat_Inbar$source.Setting) <- list(online = c("Online (at home)"), lab = c("In a lab", "In a classroom"))
+> 
+> ### RE meta-analysis without moderators
+> rma(yi = q, vi = vi)
+
+Random-Effects Model (k = 59; tau^2 estimator: REML)
+
+tau^2 (estimated amount of total heterogeneity): 0.0013 (SE = 0.0067)
+tau (square root of estimated tau^2 value):      0.0354
+I^2 (total heterogeneity / total variability):   3.05%
+H^2 (total variability / sampling variability):  1.03
+
+Test for Heterogeneity: 
+Q(df = 58) = 55.8014, p-val = 0.5575
+
+Model Results:
+
+estimate      se    zval    pval    ci.lb   ci.ub   
+  0.0392  0.0264  1.4850  0.1375  -0.0125  0.0910   
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+> 
+> ### RE meta-analysis with source.Weird as moderator
+> rma(yi = q, vi = vi, mods = ~ dat_Inbar$source.Weird)
+
+Mixed-Effects Model (k = 59; tau^2 estimator: REML)
+
+tau^2 (estimated amount of residual heterogeneity):     0.0022 (SE = 0.0071)
+tau (square root of estimated tau^2 value):             0.0466
+I^2 (residual heterogeneity / unaccounted variability): 5.14%
+H^2 (unaccounted variability / sampling variability):   1.05
+R^2 (amount of heterogeneity accounted for):            0.00%
+
+Test for Residual Heterogeneity: 
+QE(df = 57) = 55.6474, p-val = 0.5259
+
+Test of Moderators (coefficient(s) 2): 
+QM(df = 1) = 0.1830, p-val = 0.6688
+
+Model Results:
+
+                        estimate      se    zval    pval    ci.lb   ci.ub   
+intrcpt                   0.0199  0.0515  0.3867  0.6989  -0.0810  0.1208   
+dat_Inbar$source.Weird    0.0258  0.0603  0.4278  0.6688  -0.0924  0.1440   
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+> 
+> ### RE meta-analysis with recoded source.Setting as moderator
+> rma(yi = q, vi = vi, mods = ~ dat_Inbar$source.Setting)
+
+Mixed-Effects Model (k = 56; tau^2 estimator: REML)
+
+tau^2 (estimated amount of residual heterogeneity):     0 (SE = 0.0066)
+tau (square root of estimated tau^2 value):             0
+I^2 (residual heterogeneity / unaccounted variability): 0.00%
+H^2 (unaccounted variability / sampling variability):   1.00
+R^2 (amount of heterogeneity accounted for):            100.00%
+
+Test for Residual Heterogeneity: 
+QE(df = 54) = 49.6428, p-val = 0.6430
+
+Test of Moderators (coefficient(s) 2): 
+QM(df = 1) = 2.8917, p-val = 0.0890
+
+Model Results:
+
+                             estimate      se     zval    pval    ci.lb   ci.ub   
+intrcpt                        0.1045  0.0444   2.3515  0.0187   0.0174  0.1915  *
+dat_Inbar$source.Settinglab   -0.0939  0.0552  -1.7005  0.0890  -0.2022  0.0143  .
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Warning message:
+In rma(yi = q, vi = vi, mods = ~dat_Inbar$source.Setting) :
+  Studies with NAs omitted from model fitting.
+> 
+> ################################################################################
+> 
+> ##### Schwarz #####
+> dat_Schwarz <- read.csv(file = "Schwarz.1a.study.primary.include.csv") # Load data
+> 
+> ### Extract Cohen's q
+> q <- as.numeric(str_extract_all(as.character(dat_Schwarz$test.ConsoleOutput), "(?<=0\\) \n\\s{0,1})[-0-9.]+"))
+> 
+> ### Compute sampling variance Cohen's q
+> vi <- 1/(dat_Schwarz$stat.n1-3)+1/(dat_Schwarz$stat.n2-3)
+> 
+> ### Recode source.Setting variable (Merge "In a lab" and "In a classroom" and discard 
+> # "Other (please indicate)")
+> levels(dat_Schwarz$source.Setting) <- list(online = c("Online (at home)"), lab = c("In a lab", "In a classroom"))
+> 
+> ### RE meta-analysis without moderators
+> rma(yi = q, vi = vi)
+
+Random-Effects Model (k = 59; tau^2 estimator: REML)
+
+tau^2 (estimated amount of total heterogeneity): 0.0061 (SE = 0.0070)
+tau (square root of estimated tau^2 value):      0.0781
+I^2 (total heterogeneity / total variability):   15.12%
+H^2 (total variability / sampling variability):  1.18
+
+Test for Heterogeneity: 
+Q(df = 58) = 60.3903, p-val = 0.3895
+
+Model Results:
+
+estimate      se     zval    pval    ci.lb    ci.ub   
+ -0.0660  0.0270  -2.4467  0.0144  -0.1190  -0.0131  *
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+> 
+> ### RE meta-analysis with source.Weird as moderator
+> rma(yi = q, vi = vi, mods = ~ dat_Schwarz$source.Weird)
+
+Mixed-Effects Model (k = 59; tau^2 estimator: REML)
+
+tau^2 (estimated amount of residual heterogeneity):     0.0067 (SE = 0.0073)
+tau (square root of estimated tau^2 value):             0.0820
+I^2 (residual heterogeneity / unaccounted variability): 16.29%
+H^2 (unaccounted variability / sampling variability):   1.19
+R^2 (amount of heterogeneity accounted for):            0.00%
+
+Test for Residual Heterogeneity: 
+QE(df = 57) = 60.2113, p-val = 0.3604
+
+Test of Moderators (coefficient(s) 2): 
+QM(df = 1) = 0.0017, p-val = 0.9668
+
+Model Results:
+
+                          estimate      se     zval    pval    ci.lb   ci.ub   
+intrcpt                    -0.0682  0.0553  -1.2322  0.2179  -0.1766  0.0403   
+dat_Schwarz$source.Weird    0.0026  0.0636   0.0416  0.9668  -0.1219  0.1272   
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+> 
+> ### RE meta-analysis with recoded source.Setting as moderator
+> rma(yi = q, vi = vi, mods = ~ dat_Schwarz$source.Setting)
+
+Mixed-Effects Model (k = 58; tau^2 estimator: REML)
+
+tau^2 (estimated amount of residual heterogeneity):     0.0070 (SE = 0.0074)
+tau (square root of estimated tau^2 value):             0.0835
+I^2 (residual heterogeneity / unaccounted variability): 16.79%
+H^2 (unaccounted variability / sampling variability):   1.20
+R^2 (amount of heterogeneity accounted for):            0.00%
+
+Test for Residual Heterogeneity: 
+QE(df = 56) = 59.8551, p-val = 0.3376
+
+Test of Moderators (coefficient(s) 2): 
+QM(df = 1) = 0.6069, p-val = 0.4360
+
+Model Results:
+
+                               estimate      se     zval    pval    ci.lb   ci.ub   
+intrcpt                         -0.0430  0.0404  -1.0652  0.2868  -0.1221  0.0361   
+dat_Schwarz$source.Settinglab   -0.0430  0.0552  -0.7790  0.4360  -0.1512  0.0652   
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+
+Warning message:
+In rma(yi = q, vi = vi, mods = ~dat_Schwarz$source.Setting) :
+  Studies with NAs omitted from model fitting.
+> 

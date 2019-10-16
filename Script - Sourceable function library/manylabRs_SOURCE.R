@@ -4188,7 +4188,7 @@ varfun.Graham.1 <- function(vars){
 varfun.Graham.2 <- function(vars){
   
   uID <- vars[[1]]$uID
-  vars$Indiviual <- vars$Indiviual %>% dplyr::select(-dplyr::one_of("uID"))
+  vars$Indivdiual <- vars$Indivdiual %>% dplyr::select(-dplyr::one_of("uID"))
   
 
   cleanDataFilter <- data.frame(uID = uID,

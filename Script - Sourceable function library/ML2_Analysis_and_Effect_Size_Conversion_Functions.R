@@ -186,7 +186,7 @@ any2any <- function(testInfo,
                                                      verbose = FALSE, dig = 5),
            X2   = esComp[[cnt]] <- compute.es::chies(chi.sq = x, level = CL*100,
                                                      n = N, verbose = FALSE, dig = 5),
-           Z    = esComp[[cnt]] <- compute.es::pes(p = ifelse(pnorm(abs(x), lower.tail= FALSE)*2==0,.Machine$double.eps,pnorm(abs(x), lower.tail= FALSE)*2), level = CL*100, n.1 = n1, n.2 = n2, tail = "two", verbose = FALSE, dig = 5),
+           Z    = esComp[[cnt]] <- compute.es::pes(p = ifelse(pnorm(abs(x), lower.tail= FALSE)*2==0,.Machine$double.eps, pnorm(abs(x), lower.tail= FALSE)*2), level = CL*100, n.1 = n1, n.2 = n2, tail = "two", verbose = FALSE, dig = 5),
            lm.Z  = esComp[[cnt]] <- compute.es::a.pes(p = pnorm(abs(x), lower.tail= FALSE)*2, level = CL*100, n.1 = n1, n.2 = n2, R = rID, q = q, tail = alternative, verbose = FALSE, dig = 5),
            OR    = esComp[[cnt]] <- compute.es::lores(lor=log(x), n.1 = n1, n.2 = n2, var.lor = var.lor, verbose = FALSE, dig = 5, level = CL*100)
     )

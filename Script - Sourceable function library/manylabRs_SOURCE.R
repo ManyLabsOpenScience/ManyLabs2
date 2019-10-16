@@ -4162,14 +4162,17 @@ varfun.Alter.4 <- function(vars){
 
 varfun.Graham.1 <- function(vars){
 
-  cleanDataFilter <- data.frame(uID = vars[[1]]$uID,
+  uID <- vars[[1]]$uID
+  vars$Binding <- vars$Binding %>% dplyr::select(-dplyr::one_of("uID"))
+  
+  cleanDataFilter <- data.frame(uID = uID,
                                 variable1 = vars$Politics$politics,
-                                variable2 =rowMeans(vars$Binding,na.rm=TRUE)
+                                variable2 = rowMeans(vars$Binding,na.rm=TRUE)
                                 )
 
   return(list(Politics = vars$Politics$politics,
-              Binding  = rowMeans(vars$Binding,na.rm=TRUE),
-              N        = sum(complete.cases(rowMeans(vars$Binding,na.rm=TRUE), vars$Politics$politics)),
+              Binding  = rowMeans(vars$Binding[vars$Binding,na.rm=TRUE),
+              N        = sum(complete.cases(rowMeans(vars$Binding), vars$Politics$politics)),
               cleanDataFilter = cleanDataFilter)
          )
 }
@@ -4183,8 +4186,12 @@ varfun.Graham.1 <- function(vars){
 #' @return Dataset ready for analysis
 #'
 varfun.Graham.2 <- function(vars){
+  
+  uID <- vars[[1]]$uID
+  vars$Indiviual <- vars$Indiviual %>% dplyr::select(-dplyr::one_of("uID"))
+  
 
-  cleanDataFilter <- data.frame(uID = vars[[1]]$uID,
+  cleanDataFilter <- data.frame(uID = uID,
                                 variable1 = vars$Politics$politics,
                                 variable2 = rowMeans(vars$Individual, na.rm = TRUE)
                                 )
